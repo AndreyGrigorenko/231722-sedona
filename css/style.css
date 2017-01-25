@@ -3,11 +3,70 @@ body {
 	font-weight: normal;
 	font-size: 14px;
 	color: #333;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+
+/*Главная седоны*/
+.main-menu a {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
 	line-height: 26px;
 	text-transform: uppercase;
 }
 
-h2 {
+.sedona {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 21px;
+	color: #000;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.five {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.about-sedona,
+.search, 
+.find {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 21px;
+	color: #fff;
+	line-height: 21px;
+	text-transform: uppercase;	
+}
+
+.about-sedona-2 {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff;
+	line-height: 21px;
+	text-transform: uppercase;
+
+}
+
+.item h3 {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 21px;
+	color: #000;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+.interested {
 	font-family: "PT Sans", "Arial", sans-serif;	 
 	font-weight: bold;
 	font-size: 30px;
@@ -16,14 +75,120 @@ h2 {
 	text-transform: uppercase;
 }
 
-h3 {
+.interested-info {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 14px;
+	color: #333;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.form-info label {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.header-middle h3 {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+.header-middle form, button {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+
+/*Каталог седоны*/
+
+.main-menu span {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 14px;
+	color: #766357;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.main-container h2>a,
+.result {
 	font-family: "PT Sans", "Arial", sans-serif;	 
 	font-weight: bold;
 	font-size: 21px;
 	color: #000;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.main-container span {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 14px;
+	color: #333;
 	line-height: 21px;
 	text-transform: uppercase;
 }
+
+.main-container a {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+.sorting {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 12px;
+	color: #000;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.header-bottom a {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 12px;
+	color: #000;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+footer b {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: bold;
+	font-size: 21px;
+	color: #000;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+
+.website {
+	font-family: "PT Sans", "Arial", sans-serif;	 
+	font-weight: normal;
+	font-size: 14px;
+	color: #000;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+
 
 /*Временно для просмотра)*/
 .info-block-1 {
