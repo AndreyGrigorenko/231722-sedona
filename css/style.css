@@ -188,13 +188,30 @@ footer b {
 	text-transform: uppercase;
 }
 
+/* Cетка главной седоны */
+
+html, body {
+	padding: 0;
+	margin: 0;
+	min-width: 768px;
+}
+
+.info-block-3 {
+	min-height: 256px;
+}
+
+.real-town {
+	min-height: 256px;
+	width: 256px;
+	background-color: #81B3D2;
+	float: left;
+}
+
+
 
 
 /*Временно для просмотра)*/
-.info-block-1 {
-	background-color: #7CA3ED; 
-	height: 450px;
-}
+
 
 .btn {
 	background-color: #7CA3ED;
