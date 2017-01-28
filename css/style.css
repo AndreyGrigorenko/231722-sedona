@@ -190,31 +190,105 @@ footer b {
 
 /* Cетка главной седоны */
 
-html, body {
+
+html,
+body {
 	padding: 0;
 	margin: 0;
-	min-width: 768px;
+	background-color: #F2F2F2;	
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.central-block{
+  width: 1200px;
+  margin: 0 auto;
+ 
+}
+
+
+.main-header {
+	min-height: 56px;
+	background-color: #fff;
+}
+/* Инфо-блок-2 */
+.info-block-2 {
+	min-height: 220px;
+	background-color: #fff;
+
+}
+
+
+/* Инфо-блок-3 */
 .info-block-3 {
 	min-height: 256px;
 }
 
 .real-town {
 	min-height: 256px;
-	width: 256px;
+	width: 400px;
+	float: left;
 	background-color: #81B3D2;
+}
+
+.bg-img-1 {
+	min-height: 256px;
+	width: 800px;
+	float: right;
+}
+
+/* Инфо-блок-4 */
+
+.info-block-4 {
+	min-height: 330px;
+	background-color: #fff;
+	
+}
+
+.info-block-4 .item {
+	min-height: 330px;
+	width: 400px;
+	float: left;
+}
+
+/* Инфо-блок-5 */
+.info-block-3 {
+	min-height: 256px;
+}
+
+.devils-bridge {
+	min-height: 256px;
+	width: 400px;
+	float: right;
+	background-color: #81B3D2;
+}
+
+.bg-img-2 {
+	min-height: 256px;
+	width: 800px;
 	float: left;
 }
 
 
-
-
-/*Временно для просмотра)*/
-
-
-.btn {
-	background-color: #7CA3ED;
-	width: 50px;
-	height: 50px;
+/* Инфо-блок-6 */
+.info-block-6 {
+	min-height: 256px;
 }
+
+.info-block-6 .item {
+	min-height: 256px;
+	width: 400px;
+	float: left;
+	background-color: #fff;
+}
+
+/* Инфо-блок-7 */
+.info-block-7 {
+	min-height: 290px;
+	background-color: #fff;
+}
+
