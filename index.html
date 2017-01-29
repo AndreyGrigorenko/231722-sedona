@@ -9,10 +9,11 @@
 
 <body>
 
-	<header class="central-block main-header ">			
-			<div class="logo">
-				<img src="img/logo.png" alt="logo" width="138" height="70">
-			</div>
+	<header class="central-block main-header">
+			<div class="central-block header-top">	
+				<div class="logo">
+					<img src="img/logo.png" alt="logo" width="138" height="70">
+				</div>
 
 			<nav class="main-menu">
 				<ul>
@@ -21,38 +22,33 @@
 					<li><a href="#">Карта штата</a></li>
 					<li><a href="#">Гостиницы</a></li>
 				</ul>
-			</nav>		
-	</header>	
+			</nav>	
+		</div>
 
-	
-		<div class="central-block info-block-1">
+		<div class="central-block header-middle">
 			<img class="text-logo" src="img/text-logo.png" alt="text-logo" width="458" height="352">
 			<img class="white" src="img/white.png" alt="white" width="1200" height="57">
-		</div>			
+		</div>	
 	
-
-	
-		<div class="central-block info-block-2">
-			<h3 class="sedona">Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>		
-			<p class="five">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+		<div class="central-block header-bottom">					
+			<h3 class="sedona">Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h3>		
+			<p class="five">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>				
 		</div>
-		
-	</div>
+	</header>
 
-	<div class="central-block  info-block-3 clearfix">			
-			<div class="real-town">
+		<div class="central-block  info-block-1 clearfix">			
+			<div class="real-town">			 			
 				<h3 class="about-sedona">Настоящий<br>городок</h3>
 				<span class="about-sedona-2">-№1-</span>		
-				<p class="about-sedona-2">Седона - не аттракцион для туристов,<br>там течет своя жизнь</p>
-			</div>
+				<p class="about-sedona-2">Седона - не аттракцион для туристов,<br>там течет своя жизнь</p>				
+			</div>			
 
 			<div class="bg-img-1">
 				<img src="img/photo1.jpg" alt="photo1" width="800" height="256">
 			</div>		
-	</div>
-
+		</div>
 	
-		<div class="central-block info-block-4 clearfix">
+		<div class="central-block info-block-2 clearfix">
 			<div class="item">				
 				<h3>Жилье</h3>
 				<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
@@ -70,7 +66,7 @@
 		</div>
 	
 
-	<div class="central-block info-block-5 clearfix">		
+	<div class="central-block info-block-3 clearfix">		
 			<div class="bg-img-2">
 				<img src="img/photo2.jpg" alt="photo2" width="800" height="256">
 			</div>
@@ -78,13 +74,13 @@
 			<div class="devils-bridge">			 
 				<h3 class="about-sedona">Там есть мост дьявола</h3>
 				<span class="about-sedona-2">-№2-</span>		
-				<p  class="about-sedona-2">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+				<p class="about-sedona-2">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
 			</div>		
 		</div>
 	
 
 	
-		<div class="central-block info-block-6 clearfix">
+		<div class="central-block info-block-4 clearfix">
 			<div class="item">				
 				<h3>Небольшая площадь</h3>
 				<span>-№3-</span>
@@ -106,48 +102,58 @@
 	
 
 	
-		<div class="central-block info-block-7">
+		<div class="central-block info-block-5">
 			<h2 class="interested">Заинтересовались?</h2>		
 			<p class="interested-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-		</div>
-	</div>
 
-	<div class="bg-map">
-		<div class="form">
-			<button class="search">Поиск гостиницы в Седоне</button>
-			<div class="central-block">
-				<form class="form-info" action="#" method="post">						
-					<label>Дата заезда: <input type="text" name="check-in date"></label>							
-					<label>Дата выезда: <input type="text" name="date of departure"></label>
-					<label>Взрослые: <input type="text" name="old people"></label>
-					<label>Дети: <input type="text" name="young people"></label>					
-					<button class="find">Найти</button>
-				</form>				
+			<div class="form">
+				<button class="search">Поиск гостиницы в Седоне</button>
+				<div class="form-central-block">
+					<form class="form-info" action="#" method="post">						
+						<label>Дата заезда: <input type="text" name="check-in date"></label>							
+						<label>Дата выезда: <input type="text" name="date of departure"></label>
+						<label>Взрослые: <input type="text" name="old people"></label>
+						<label>Дети: <input type="text" name="young people"></label>					
+						<button class="find">Найти</button>
+					</form>				
+				</div>
 			</div>
 		</div>
+			
 	
 
-	<footer>	
-	<div class="central-block">
+	<footer class="main-footer">
+		<div class="central-block">
+			<div class="bg-map"></div>
+		</div>
+
+	<div class="central-block footer-bottom  clearfix">
 		<b>#visitsedona</b>
 		<div class="footer-social">          
-           <div class="btn"><a class="social-btn social-btn-tw" href="#">
-          		<img src="img/tw.png" alt="Твиттер" width="17" height="15"></a>
-           </div>
+           	<a class="social-btn social-btn-tw" href="#">
+           		<div class="btn">
+          			<img src="img/tw.png" alt="Твиттер" width="17" height="15">
+           		</div>
+           	</a>
 
-           <div class="btn"><a class="social-btn social-btn-fb" href="#">
-           		<img src="img/fb.png" alt="Фейсбук"  width="10" height="19"></a>
-           </div>
+           	<a class="social-btn social-btn-fb" href="#">
+           		<div class="btn">
+           			<img src="img/fb.png" alt="Фейсбук"  width="10" height="19">
+           		</div>
+           	</a>
 
-           <div class="btn"><a class="social-btn social-btn-youtube" href="#">
-           		<img src="img/yt.png" alt="Ютюб"   width="20" height="16"></a>
-           </div>
+           	<a class="social-btn social-btn-youtube" href="#">
+           		<div class="btn">
+           			<img src="img/yt.png" alt="Ютюб"   width="20" height="16">
+           		</div>
+           	</a>
         </div>
 
-        <div class="footer-copyright">
-             <span class="website">Website by</span><a href="https://htmlacademy.ru"><img src="img/html-academy.png" alt="HTML Academy" width="113" height="39"></a>
+        <div class="footer-copyright clearfix">
+             <span class="website">Website by </span><a href="https://htmlacademy.ru"><img class="html-academy" src="img/html-academy.png" alt="HTML Academy" width="113" height="39"></a>
         </div>
 	</div>
+
 </footer>
 </body>
 </html>
