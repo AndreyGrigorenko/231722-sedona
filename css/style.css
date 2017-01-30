@@ -214,6 +214,24 @@ body {
 .header-top {
 	min-height: 57px;
 	background-color: #fff;
+	position: relative;
+
+}
+
+.logo {
+	position: absolute;
+}
+
+.main-menu {	
+	min-height: 57px;
+	width: 1056px;
+	margin: 0 auto;
+	background-color: red;
+}
+
+.main-menu li {
+	display: inline-block;
+	margin-top: 16px;
 }
 
 .header-middle {
@@ -226,23 +244,27 @@ body {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	background-color: red;
 }
 
 .header-bottom {
 	min-height: 220px;
 	background-color: #BDB76B;
 	text-align: center;
-	
+}
 
+.header-bottom-text {
+	width: 490px;
+	min-height: 220px;	
+	margin: 0 auto;	
+	background-color: red;
 }
 
 .sedona {
-	padding-top: 63px;	
+	padding-top: 63px;
 }
 
-.five {
-	padding-bottom: 52px;
-}
+
 
 /* Инфо-блок-1 */
 
@@ -255,7 +277,20 @@ body {
 	width: 400px;
 	float: left;
 	background-color: #81B3D2;
+	
+}
+
+.real-town-text {	
+	min-height: 147px;
+	width: 283px;
+	padding-bottom: 55px;
+	background-color: red;
 	text-align: center;
+	vertical-align: middle;	
+}
+
+.real-town p{
+	padding-bottom: px;	
 }
 
 .bg-img-1 {
@@ -264,21 +299,12 @@ body {
 	float: right;
 }
 
-.real-town h3 {
-	padding-top: 57px;	
-}
-
-.real-town p{
-	padding-bottom: px;	
-}
 
 
 /* Инфо-блок-2 */
 
 .info-block-2 {
 	min-height: 332px;
-
-
 }
 
 .info-block-2 .item {
@@ -287,11 +313,33 @@ body {
 	float: left;
 	background-color: #8FBC8F;
 	text-align: center;
-	
 }
 
-.info-block-2 .item h3 {
-	padding-top: 165px;
+.item-text-1 {
+	width: 253px;
+	min-height: 85px;
+	margin-top: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+
+.item-text-2 {
+	width: 285px;
+	min-height: 85px;
+	margin-top: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+
+.item-text-3 {
+	width: 273px;
+	min-height: 85px;
+	margin-top: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
 }
 
 
@@ -308,6 +356,15 @@ body {
 	float: right;
 	background-color: #81B3D2;
 	text-align: center;
+}
+
+.devils-bridge-text {	
+	min-height: 147px;
+	width: 303px;
+	margin-bottom: 55px;
+	background-color: red;
+	text-align: center;
+	
 }
 
 .bg-img-2 {
@@ -415,13 +472,33 @@ body {
 		
 }
 
+
+/*Соцсети*/
+
 .footer-social {
 	min-height: 50px;
-	width: 150px;	
+	width: 153px;	
 	float: left;
 	margin-top: 35px;
 	margin-left: 258px;	
 	background-color: #B34EE9; 
+}
+
+.btn {
+	width: 47px;
+	height: 50px;
+	background-color: #81B3D2;
+	float: left;
+	text-align: center;	
+	margin-right: 6px;
+}
+
+.social-btn-youtube > .btn {
+	margin-right: 0px;
+} 
+
+.btn>img {
+	margin-top: 17px;
 }
 
 .footer-copyright {
@@ -430,6 +507,9 @@ body {
 	margin-right: 104px;
 	background-color: #7FFFD4;	
 }
+
+
+/* html-academy */
 
 .website {
 	display: block;
@@ -440,3 +520,4 @@ body {
 .html-academy {
 	float: right;
 }
+
