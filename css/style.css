@@ -212,17 +212,250 @@ body {
 /* Хедер */
 
 .header-top {
-	height: 57px;
+	min-height: 57px;
 	background-color: #fff;
+	position: relative;
+
+}
+
+.logo {
+	position: absolute;
+}
+
+.main-menu {	
+	min-height: 57px;
+	width: 1056px;
+	margin: 0 auto;
+	background-color: red;
+}
+
+.main-menu li {
+	display: inline-block;
+	margin-top: 16px;
+}
+
+.header-middle {
+	min-height: 510px;
+	background-color: #A9A9A9;
+}
+
+.text-logo {
+	padding-top: 75px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: red;
+}
+
+.header-bottom {
+	min-height: 220px;
+	background-color: #BDB76B;
+	text-align: center;
+}
+
+.header-bottom-text {
+	width: 490px;
+	min-height: 220px;	
+	margin: 0 auto;	
+	background-color: red;
+}
+
+.sedona {
+	padding-top: 63px;
 }
 
 
 
+/* Инфо-блок-1 */
+
+.info-block-1 {
+	min-height: 256px;
+}
+
+.real-town {
+	min-height: 256px;
+	width: 400px;
+	float: left;
+	background-color: #81B3D2;
+	
+}
+
+.real-town-text {	
+	min-height: 147px;
+	width: 283px;
+	padding-bottom: 55px;
+	background-color: red;
+	text-align: center;
+	vertical-align: middle;	
+}
+
+.real-town p{
+	padding-bottom: px;	
+}
+
+.bg-img-1 {
+	min-height: 256px;
+	width: 800px;
+	float: right;
+}
 
 
 
+/* Инфо-блок-2 */
+
+.info-block-2 {
+	min-height: 332px;
+}
+
+.info-block-2 .item {
+	min-height: 332px;
+	width: 400px;
+	float: left;
+	background-color: #8FBC8F;
+	text-align: center;
+}
+
+.item-text-1 {
+	width: 253px;
+	min-height: 85px;
+	margin-top: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+
+.item-text-2 {
+	width: 285px;
+	min-height: 85px;
+	margin-top: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+
+.item-text-3 {
+	width: 273px;
+	min-height: 85px;
+	margin-top: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
 
 
+
+/* Инфо-блок-3 */
+
+.info-block-3 {
+	min-height: 256px;
+}
+
+.devils-bridge {
+	min-height: 256px;
+	width: 400px;
+	float: right;
+	background-color: #81B3D2;
+	text-align: center;
+}
+
+.devils-bridge-text {	
+	min-height: 147px;
+	width: 303px;
+	margin-bottom: 55px;
+	background-color: red;
+	text-align: center;
+	
+}
+
+.bg-img-2 {
+	min-height: 256px;
+	width: 800px;
+	float: left;
+}
+
+.devils-bridge h3 {
+	padding-top: 57px;	
+}
+
+.devils-bridge p{
+	padding-bottom: px;	
+}
+
+
+/* Инфо-блок-4 */
+
+.info-block-4 {
+	min-height: 256px;
+		
+}
+
+.info-block-4 .item {
+	min-height: 256px;
+	width: 400px;
+	float: left;
+	background-color: #C0C0C0;
+	text-align: center;	
+}
+
+.info-block-4 .item h3 {
+	padding-top: 53px;
+}
+
+/* Инфо-блок-5 */
+
+.info-block-5 {
+	min-height: 292px;
+	text-align: center;
+	background-color: #708090;
+	position: relative;
+}
+
+.info-block-5 h2 {
+	padding-top: 57px;
+}
+
+/* Карта */
+
+.bg-map {
+	min-height: 475px;
+	background-color: #D8BFD8;
+}
+
+
+/* Форма */
+
+.form {
+	min-height: 480px;
+	width: 575px;
+	background-color: #FFFF00;
+	position: absolute;	
+	left: 315px;
+	right: 315px;
+}
+
+.form-central-block {
+	min-height: 290px;
+	width: 460px;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	margin-right: auto;
+	margin-left: auto;	
+	background-color: #FF0000; 
+
+}
+
+.search {
+	min-height: 87px;
+	width: 575px;
+	background-color: #766357;	
+}
+
+.find {
+	min-height: 60px;
+	width: 460px;
+	background-color: #81B3D2;
+
+}
 
 /* Футер */
 
