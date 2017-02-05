@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Каталог</title>
@@ -54,12 +55,14 @@
 			</div>		
 	</div>
 
-	<div class="central-block header-bottom-filter">		
+	<div class="central-block header-bottom-filter clearfix">		
 		<span class="result">Найдено: 3</span>
 		<span class="sorting">Сортировка:</span>
 		<span class="price">По цене</span>
 		<a href="#">По типу</a>
-		<a href="#">По рейтингу</a>		
+		<a href="#">По рейтингу</a>	
+		<div class="filter-up"></div>
+		<div class="filter-down"></div>	
 	</div>		
 </header>
 
@@ -128,7 +131,9 @@
         </div>
 
         <div class="footer-copyright clearfix">
-             <span class="website">Website by </span><a href="https://htmlacademy.ru"><img class="html-academy" src="img/html-academy.png" alt="HTML Academy" width="113" height="39"></a>
+             <span class="website">Website by </span><a href="https://htmlacademy.ru">
+             	<div class="html-academy"></div>
+             </a>
         </div>
 	</div>
 </footer>

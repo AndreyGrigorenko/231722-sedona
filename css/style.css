@@ -371,13 +371,32 @@ body {
 }
 
 .info-block-2 .item::before {
-	height: 75px;
+	content: "";
+	height: 76px;
 	width: 75px;
-	top: 50px;
-	left: 50px;
+	bottom: 200px;
+	left: 165px;
 	position: absolute;
-	background-color: red;	
-		
+}
+
+.info-block-2 .item-1::before {
+	height: 72px;
+	width: 75px;
+	background-image: url("../img/sprite-1.png");			
+}
+
+.info-block-2 .item-2::before {
+	height: 70px;
+	width: 74px;
+	background-image: url("../img/sprite-1.png");
+	background-position: 138px 0,5px;		
+}
+
+.info-block-2 .item-3::before {
+	height: 76px;
+	width: 64px;
+	background-image: url("../img/sprite-1.png");
+	background-position: 64px 0,5px;		
 }
 
 .img1 {
@@ -684,22 +703,26 @@ body {
 	background-position: 25px -5px;		
 }
 
-
-.btn:hover {
-	background-color: #669EC0;
-
+ .btn:hover {
+	background-color: #669EC0;			
 }
+
 
 .btn:active {
-	background-color: #5496BD;
-
+	background-color: #5496BD;	
 }
+
+.btn:active::before {
+	background-color: #5496BD;
+	opacity: 0.3;
+}
+
 .footer-copyright {
+	height: 39px;
+	width: 195px;
 	float: right;
 	margin-top: 40px;
-	margin-right: 104px;
-	
-		
+	margin-right: 104px;	
 }
 
 
@@ -709,11 +732,42 @@ body {
 	display: block;
 	float: left;
 	padding-top: 10px;
-	margin-right: 10px;
-	
+	margin-right: px;	
 }
 
+.html-academy {
+	height: 39px;
+	width: 113px;
+	float: right;
+	position: relative;	
+}
 
+.html-academy::after {
+	content: "";
+	height: 39px;
+	width: 113px;	
+	position: absolute;
+	background-image: url("../img/sprite-4.png");
+	background-position: 113px;	
+}
+
+.html-academy:hover::after {
+	content: "";
+	height: 39px;
+	width: 113px;	
+	position: absolute;
+	background-image: url("../img/sprite-4.png");
+	background-position: 0px;	
+}
+
+.html-academy:active::after {
+	content: "";
+	height: 39px;
+	width: 113px;	
+	position: absolute;
+	background-image: url("../img/sprite-4.png");
+	background-position: 226px;	
+}
 
 /* Cетка каталога седоны */
 
@@ -843,14 +897,52 @@ body {
 	position: relative;
 }
 
-.header-bottom-filter::after {
+
+
+.filter-up {
+	height: 10px;
+	width: 11px;
+	float: left;
+	position: relative;	
+	margin-left: 1090px;
+	margin-top: -20px;
+	cursor: pointer;
+}
+
+.filter-up::after {
+	content: "";
 	position: absolute;
-	width: 20px;
-	height: 20px;
-	right: px;
-	top: px;
-	background-color: red;
+	width: 11px;
+	height: 10px;	
 	background-image: url("../img/sprite-5.png");
+}
+
+.filter-up:hover::after {	
+	background-image: url("../img/sprite-5.png");	
+	background-position: 22px;
+}
+
+.filter-up:active::after {	
+	background-image: url("../img/sprite-5.png");	
+	background-position: 11px;
+}
+
+.filter-down {
+	height: 10px;
+	width: 11px;
+	float: right;
+	position: relative;
+	margin-right: 73px;
+	margin-top: -20px;	
+}
+
+.filter-down::after {
+	content: "";
+	position: absolute;
+	width: 11px;
+	height: 10px;	
+	background-image: url("../img/sprite-5.png");
+	background-position: 33px;
 }
 
 .header-bottom-filter a {
@@ -982,14 +1074,13 @@ body {
 	margin-right: 19px;
 }
 
+/* Кнопки */
 .blue {
 	color: #fff;
 	background-color: #81B3D2;
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	
-
 }
 
 .blue:hover {
