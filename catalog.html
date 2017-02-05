@@ -8,10 +8,11 @@
 </head>
 
 <body>
-<header class="central-block main-header">
+<div class="main-central-block">
+<header class="central-block main-header-2">
 			<div class="central-block header-top">	
 				<div class="logo">
-					<img src="img/logo.png" alt="logo" width="138" height="70">
+					<a href="index.html"><img src="img/logo.png" alt="logo" width="138" height="70"></a>
 				</div>
 
 			<nav class="main-menu">
@@ -19,15 +20,15 @@
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Фото и видео</a></li>
 					<li><a href="#">Карта штата</a></li>
-					<li><a href="#">Гостиницы</a></li>
+					<span>Гостиницы</span>
 				</ul>
 			</nav>	
 		</div>
 
-		<div class="central-block header-middle-forms clearfix">		
+		<div class="central-block forms clearfix">		
 			<div class="form-1">				
 				<h3>Инфраструктура:</h3>				
-				<form>
+				<form class="form-1-text">
 					<label><input type="checkbox" name="checkbox1" checked>Бассейн</label>
 					<label><input type="checkbox" name="checkbox2">Парковка</label>
 					<label><input type="checkbox" name="checkbox3">Wi-fi</label>
@@ -36,7 +37,7 @@
 
 			<div class="form-2">
 				<h3>Тип жилья:</h3>
-				<form>
+				<form class="form-2-text">
 					<label><input type="checkbox" name="checkbox4" checked>Гостиница</label>
 					<label><input type="checkbox" name="checkbox5" checked>Мотель</label>
 					<label><input type="checkbox" name="checkbox6" checked>Апартаменты</label>
@@ -45,10 +46,10 @@
 
 			<div class="form-3">
 				<h3>Стоимость в сутки (р):</h3>
-				<form>
-					<input type="text" name="text"><br>
+				<form class="form-3-text">
+					<input type="text" name="text">
 					<input type="range" name="range" min="0" max="5000" step="1000">
-					<button type="submit" name="show">Показать</button>
+					<input type="submit" value="Показать">
 				</form>
 			</div>		
 	</div>
@@ -56,7 +57,7 @@
 	<div class="central-block header-bottom-filter">		
 		<span class="result">Найдено: 3</span>
 		<span class="sorting">Сортировка:</span>
-		<a href="#">По цене</a>
+		<span class="price">По цене</span>
 		<a href="#">По типу</a>
 		<a href="#">По рейтингу</a>		
 	</div>		
@@ -65,35 +66,41 @@
 <main class="main-container">
 	<div class="central-block container-1 clearfix">		
 		<img src="img/photo3.jpg" alt="img-1" width="135" height="90">
-		<div class="central-block-info">
-			<h2><a href="#">Amara resort & spa></a></h2
+		<div class="central-block-info central-block-info-1">
+			<h2><a href="#">Amara resort & spa</a></h2>
 			<span>Гостиница</span>
 			<span>От 4000 р.</span>
-			<a href="#">Подробнее</a>
-			<a href="#">Забронировать</a>
-		</div>			
+			<a class="blue" href="#">Подробнее</a>
+			<a class="brown" href="#">Забронировать</a>
+		</div>
+
+		<div class="rating">Рейтинг: 8,5</div>			
 	</div>
 
 	<div class="central-block container-2 clearfix">		
 		<img src="img/photo4.jpg" alt="img-2" width="135" height="90">
-		<div class="central-block-info">
+		<div class="central-block-info central-block-info-2">
 			<h2><a href="#">Desert quail inn</a></h2>
 			<span>Мотель</span>
 			<span>От 3000 р.</span>
-			<a href="#">Подробнее</a>
-			<a href="#">Забронировать</a>
-		</div>			
+			<a class="blue" href="#">Подробнее</a>
+			<a class="brown" href="#">Забронировать</a>
+		</div>
+
+		<div class="rating">Рейтинг: 8,9</div>			
 	</div>
 
 	<div class="central-block container-3 clearfix">		
 		<img src="img/photo5.jpg" alt="img-3" width="135" height="90">
-		<div class="central-block-info">
+		<div class="central-block-info central-block-info-3">
 			<h2><a href="#">Villas at poco  diablo</a></h2>
 			<span>Апартаменты</span>
 			<span>От 2000 р.</span>
-			<a href="#">Подробнее</a>
-			<a href="#">Забронировать</a>
-		</div>			
+			<a class="blue" href="#">Подробнее</a>
+			<a class="brown" href="#">Забронировать</a>
+		</div>
+
+		<div class="rating">Рейтинг: 9,2</div>			
 	</div>		
 </main>
 
@@ -103,19 +110,19 @@
 		<div class="footer-social clearfix">          
            	<a class="social-btn social-btn-tw" href="#">
            		<div class="btn">
-          			<img src="img/tw.png" alt="Твиттер" width="17" height="15">
+          			
            		</div>
            	</a>
 
            	<a class="social-btn social-btn-fb" href="#">
            		<div class="btn">
-           			<img src="img/fb.png" alt="Фейсбук"  width="10" height="19">
+           			
            		</div>
            	</a>
 
            	<a class="social-btn social-btn-youtube" href="#">
            		<div class="btn">
-           			<img src="img/yt.png" alt="Ютюб"   width="20" height="16">
+           			
            		</div>
            	</a>
         </div>
@@ -125,6 +132,7 @@
         </div>
 	</div>
 </footer>
+</div>
 </body>
 </html>
 
