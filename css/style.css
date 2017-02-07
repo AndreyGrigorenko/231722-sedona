@@ -121,7 +121,6 @@ body {
 	color: #766357;
 	line-height: 26px;
 	text-transform: uppercase;
-	
 
 }
 
@@ -282,6 +281,7 @@ body {
 .main-menu a:active {
 	color: #CACACA;		
 }
+
 
 .header-middle {
 	height: 510px;	
@@ -581,7 +581,10 @@ body {
 	margin-left: 110px;
 }
 
-
+.young-people {
+	width: 115px;
+	height: 35px;
+}
 
 
 .search {
@@ -633,10 +636,8 @@ body {
 
 .footer-bottom {
 	min-height: 120px;
-	background: #fff url("../img/footer-img.png") no-repeat center top;
+	background: #fff;
 	color: #000; 
-	opacity: 0.902;	
-  
 }
 
 .footer-bottom b {
@@ -805,11 +806,6 @@ body {
 	
 }
 
-.form-1-text {
-	height: 115p;
-	width: 100p;	
-}
-
 .form-1-text label{
 	margin-bottom: 35px;
 	
@@ -827,7 +823,6 @@ input[type="checkbox"] {
 input[type="checkbox"] + label {
 	display: block;
 	padding-left: 35px;
-
 	position: relative;
 	cursor: pointer;
 }
@@ -836,10 +831,8 @@ input[type="checkbox"] + label::before {
 	content: "";
 	position: absolute;
 	height: 22px;
-	width: 22px;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	background-color: inherit;
+	width: 22px;	
+	background: url(../img/mini-img8.png);
 	top: 0;
 	left: 0;
 	
@@ -850,9 +843,7 @@ input[type="checkbox"]:checked + label::after {
 	content: "";
 	position: absolute;
 	height: 22px;
-	width: 22px;
-	border: 2px solid #fff;
-	border-radius: 3px;
+	width: 26px;	
 	background: url(../img/mini-img7.png);
 	top: 0;
 	left: 0;
@@ -869,12 +860,7 @@ input[type="checkbox"]:checked + label::after {
 	float: left;
 }
 
-.form-2-text {
-	height: 115p;
-	width: 120p;
 	
-}
-
 .form-2-text label{
 	margin-bottom: 35px;
 	display: block;
