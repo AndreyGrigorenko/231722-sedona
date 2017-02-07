@@ -129,14 +129,19 @@
 				<h2 class="interested">Заинтересовались?</h2>		
 				<p class="interested-info">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			</div>
+
 			<div class="form">
 				<button class="search">Поиск гостиницы в Седоне</button>
 				<div class="form-central-block">
-					<form class="form-info" action="#" method="post">						
-						<label>Дата заезда: <input type="text" name="check-in date"></label>							
-						<label>Дата выезда: <input type="text" name="date of departure"></label>
-						<label>Взрослые: <input  type="text" name="old people"></label>
-						<label>Дети: <input  type="text" name="young people"></label>					
+					<form class="form-info" action="#" method="post">
+						<label for="date-1">Дата заезда: </label>				
+						<input id="date-1" type="text" name="check-in date"></label>
+						<label for="date-2">Дата выезда: </label>						
+						<input id="date-2"type="text" name="date of departure">
+						<label for="old-people">Взрослые: </label>
+						<input  id="old-people" type="text" name="old-people">
+						<label for="young-people">Дети:</label> 
+						<input  id="young-people"type="text"  name="young-people">					
 						<button class="find">Найти</button>
 					</form>				
 				</div>
