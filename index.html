@@ -133,16 +133,22 @@
 			<div class="form">
 				<button class="search">Поиск гостиницы в Седоне</button>
 				<div class="form-central-block">
-					<form class="form-info" action="#" method="post">										
-						<label><input type="text" name="check-in-date" value="24 апреля 2017">Дата заезда: </label>					
-						<label><input type="text" name="date-of-departure" value="4 июля 2017">Дата выезда: </label>				
-						<label><input type="text" name="old-people">Взрослые: </label>						
-						<label><input class="young-people" type="text" name="young-people">Дети:</label> 					
+					<form class="form-info" action="#" method="post">
+						<label for="date-1">Дата заезда: </label>				
+						<input id="date-1" type="text" name="check-in date"></label>
+						<label for="date-2">Дата выезда: </label>						
+						<input id="date-2" type="text" name="date of departure">
+						<label for="old-people">Взрослые: </label>
+						<input  id="old-people" type="text" name="old-people">
+						<label for="young-people">Дети:</label> 
+						<input class="young-people" id="young-people" type="text"  name="young-people">					
 						<button class="find">Найти</button>
 					</form>				
 				</div>
 			</div>
-		</div>	
+		</div>
+			
+	
 
 	<footer class="main-footer">
 		<div class="central-block">
@@ -176,7 +182,7 @@
              	<div class="html-academy"></div>
              </a>
         </div>
-	</div>	
+	</div>
 </footer>
 </div>
 </body>
