@@ -216,6 +216,8 @@ body {
   	margin: 0 auto;
 	box-shadow: 0 0 20px 3px #CACACA;
 }
+
+
 /* Хедер */
 
 
@@ -538,8 +540,6 @@ body {
 
 .bg-map {
 	height: 475px;
-	background: url("../img/map.jpg");
-
 }
 
 
@@ -564,20 +564,26 @@ body {
 	margin-right: auto;
 	margin-left: auto;	
 	background-color: #FF0000;
-	box-sizing: border-box; 
+	box-sizing: border-box;
 
 }
 
 .form-info label {		
 	display: block;
 	text-align: left;
+	
 }
 
 .form-info input {		
 	display: block;
-	width: 345px;
+	width: 350px;
 	height: 35px;
 	background-color: #F2F2F2;
+	color: #000;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding-left: 10px;
+
 	margin-left: 110px;
 }
 
@@ -634,10 +640,16 @@ body {
 
 /* Футер */
 
+.main-footer {
+	height: 593px;
+	background-image: url("../img/map.jpg");
+}
+
 .footer-bottom {
-	min-height: 120px;
+	height: 120px;
 	background: #fff;
 	color: #000; 
+	opacity: 0.9;
 }
 
 .footer-bottom b {
@@ -657,24 +669,35 @@ body {
 	float: left;
 	margin-top: 35px;
 	margin-left: 258px;	
-	 
+	
+
 }
 
 .btn {
 	width: 47px;
-	height: 50px;
-	background-color: #81B3D2;
+	height: 50px;	
 	float: left;
 	text-align: center;	
 	margin-right: 6px;
 	position: relative;
+	
+}
+
+.btn::before {
+	content: "";
+	width: 47px;
+	height: 50px;
+	background-color: #81B3D2;	
+	position: absolute;
+	right: 0;
+	opacity: 1;
 }
 
 .social-btn-youtube .btn {
 	margin-right: 0;
 }
 
-.social-btn-tw .btn::before {
+.social-btn-tw .btn::after {
 	content: "";
 	width: 17px;
 	height: 15px;
@@ -685,7 +708,7 @@ body {
 	background-position: 52px -5px;	
 }
 
-.social-btn-fb .btn::before {
+.social-btn-fb .btn::after {
 	content: "";
 	width: 10px;
 	height: 19px;
@@ -696,7 +719,7 @@ body {
 	background-position: 72px -5px;		
 }
 
-.social-btn-youtube .btn::before {
+.social-btn-youtube .btn::after {
 	content: "";
 	width: 20px;
 	height: 16px;
@@ -707,14 +730,7 @@ body {
 	background-position: 25px -5px;		
 }
 
- .btn:hover {
-	background-color: #669EC0;			
-}
-
-
-.btn:active {
-	background-color: #5496BD;	
-}
+ 
 
 .btn:active::before {
 	background-color: #5496BD;
@@ -832,7 +848,8 @@ input[type="checkbox"] + label::before {
 	position: absolute;
 	height: 22px;
 	width: 22px;	
-	background: url(../img/mini-img8.png);
+	background: url(../img/sprite-6.png);
+	background-position: 22px;
 	top: 0;
 	left: 0;
 	
@@ -844,7 +861,7 @@ input[type="checkbox"]:checked + label::after {
 	position: absolute;
 	height: 22px;
 	width: 26px;	
-	background: url(../img/mini-img7.png);
+	background: url(../img/sprite-6.png);
 	top: 0;
 	left: 0;
 
