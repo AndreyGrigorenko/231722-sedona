@@ -294,14 +294,12 @@ body {
 
 .text-logo {	
 	display: block;	
-	height: 352px;	 
-	
+	height: 352px;		
 }
 
 .white {
 	display: block;	
-	height: 57px;	 
-	
+	height: 57px;	
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
@@ -345,14 +343,11 @@ body {
 	text-align: center;	
 }
 
-
-
 .bg-img-1 {
 	height: 256px;
 	width: 800px;
 	float: right;
 }
-
 
 
 /* Инфо-блок-2 */
@@ -421,8 +416,7 @@ body {
 	height: 85px;
 	margin-top: 165px;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
 .item-text-2 {
@@ -430,8 +424,7 @@ body {
 	height: 85px;
 	margin-top: 165px;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
 .item-text-3 {
@@ -464,10 +457,8 @@ body {
 .devils-bridge-text {	
 	height: 147px;
 	width: 303px;
-	box-sizing: border-box;
-	
-	text-align: center;
-	
+	box-sizing: border-box;	
+	text-align: center;	
 }
 
 .bg-img-2 {
@@ -475,7 +466,6 @@ body {
 	width: 800px;
 	float: left;
 }
-
 
 
 
@@ -499,20 +489,17 @@ body {
 
 .item-text-4 {
 	height: 145px;
-	width: 240px;
-	
+	width: 240px;	
 }
 
 .item-text-5 {
 	height: 145px;
-	width: 265px;
-	
+	width: 265px;	
 }
 
 .item-text-6 {
 	height: 145px;
-	width: 260px;
-	
+	width: 260px;	
 }
 
 /* Инфо-блок-5 */
@@ -524,14 +511,12 @@ body {
 	position: relative;
 	box-sizing: border-box;
 	padding-top: 57px;
-	padding-left: 312px;
-	
+	padding-left: 312px;	
 }
 
 .info-block-5-text {
 	height: 95px;
-	width: 576px;
-	
+	width: 576px;	
 }
 
 /* Карта */
@@ -544,14 +529,16 @@ body {
 /* Форма главной седоны*/
 
 .form {
-	height: 480px;
+	height: 395px;
 	width: 575px;
 	background-color: #fff;
 	position: absolute;	
 	left: 315px;
 	right: 315px;
-	top: 205px;
+	top: 293px;
+	box-shadow: 0 0 10px 3px #A3A3A3;	
 }
+
 
 .form-central-block,
 .form-info {
@@ -580,63 +567,253 @@ body {
  .form-info input:focus {	
 	background-color: #fff;
 	border: 2px solid #E5E5E5;
+	outline: none;
 }
 
-.form-info .check-in-date {
+.form-info .check-in-date-text {
 	margin-left: 19px;
-	padding-left: 15px;
-	position: relative;
+	padding-left: 15px;	
+
 }
 
-
-.form-info .check-in-date::after {
-	content: "";
-	height: 22px;
+.form-info .check-in-date {	
+	width: 460px;
+	height: 35px;
+	margin-bottom: 30px;	
+}
+  
+.form-info .calendar-1 {
 	width: 21px;
-	position: absolute;
-	background-color: red;
-	background-image: url("../img/sprite-6.png");
-
+	height: 22px;
+	position: relative;
+	top: -70px;
+	left: 440px;
 }
+
+.form-info .calendar-1::after {
+	content: "";
+	width: 21px;
+	height: 22px;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	background-image: url("../img/sprite-6.png");
+	cursor: pointer;
+}
+
+.form-info .calendar-1:hover::after {	
+	background-image: url("../img/sprite-6.png");
+	background-position: 42px;
+	cursor: pointer;
+}
+
+.form-info .calendar-1:active::after {	
+	background-image: url("../img/sprite-6.png");
+	background-position: 21px;
+	cursor: pointer;
+}
+
 
 .form-info .date-of-departure {
+	width: 460px;
+	height: 35px;
+	margin-bottom: 30px;
+}
+
+.form-info .date-of-departure-text {
 	margin-left: 15px;
 	padding-left: 15px;
 }
 
 
+.form-info .calendar-2 {
+	width: 21px;
+	height: 22px;
+	position: relative;
+	top: -70px;
+	left: 440px;
+}
+
+.form-info .calendar-2::after {
+	content: "";
+	width: 21px;
+	height: 22px;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	background-image: url("../img/sprite-6.png");
+	cursor: pointer;
+}
+
+.form-info .calendar-2:hover::after {	
+	background-image: url("../img/sprite-6.png");
+	background-position: 42px;
+	cursor: pointer;
+}
+
+.form-info .calendar-2:active::after {	
+	background-image: url("../img/sprite-6.png");
+	background-position: 21px;
+	cursor: pointer;
+}
+
 .form-info .old-people {
+	float: left;			
+}
+
+.form-info .old-people-text {
 	width: 115px;
 	height: 35px;
 	margin-left: 36px;
 	margin-right: 35px;
-	text-align: center;
+	text-align: center;	
 }
  
+.form-info .minus-1 {
+	width: 12px;
+	height: 3px;
+	position: relative;
+	top: 22px;
+	left: 120px;		
+}
 
-.form-info .young-people {
+.form-info .minus-1::before {
+	content: "";
+	width: 12px;
+	height: 3px;
+	position: absolute;	
+	background-image: url("../img/sprite-7.png");
+	cursor: pointer;	
+}
+
+.form-info .minus-1:hover::before {	
+	background-image: url("../img/sprite-7.png");
+	background-position: 24px;
+	cursor: pointer;
+}
+
+.form-info .minus-1:active::before {	
+	background-image: url("../img/sprite-7.png");
+	background-position: 12px;
+	cursor: pointer;
+}
+
+.form-info .plus-1 {
+	width: 11px;
+	height: 11px;
+	position: relative;
+	top: -55px;
+	left: 197px;		
+}
+
+.form-info .plus-1::after {
+	content: "";
+	width: 11px;
+	height: 11px;
+	position: absolute;	
+	background-image: url("../img/sprite-8.png");
+	cursor: pointer;	
+}
+
+.form-info .plus-1:hover::after {	
+	background-image: url("../img/sprite-8.png");
+	background-position: 22px;
+	cursor: pointer;
+}
+
+.form-info .plus-1:active::after {	
+	background-image: url("../img/sprite-8.png");
+	background-position: 11px;
+	cursor: pointer;
+}
+
+
+.form-info .young-people-text {
 	width: 115px;
 	height: 35px;
 	margin-left: 30px;
-	text-align: center;
+	text-align: center;	
 }
 
+.form-info .young-people {
+	float: right;
+}
+
+.form-info .minus-2 {
+	width: 12px;
+	height: 3px;
+	position: relative;
+	top: 22px;
+	left: 80px;		
+}
+
+.form-info .minus-2::before {
+	content: "";
+	width: 12px;
+	height: 3px;
+	position: absolute;	
+	background-image: url("../img/sprite-7.png");
+	cursor: pointer;	
+}
+
+.form-info .minus-2:hover::before {	
+	background-image: url("../img/sprite-7.png");
+	background-position: 24px;
+	cursor: pointer;
+}
+
+.form-info .minus-2:active::before {	
+	background-image: url("../img/sprite-7.png");
+	background-position: 12px;
+	cursor: pointer;
+}
+
+.form-info .plus-2 {
+	width: 11px;
+	height: 11px;
+	position: relative;
+	top: -55px;
+	left: 157px;		
+}
+
+.form-info .plus-2::after {
+	content: "";
+	width: 11px;
+	height: 11px;
+	position: absolute;	
+	background-image: url("../img/sprite-8.png");
+	cursor: pointer;	
+}
+
+.form-info .plus-2:hover::after {	
+	background-image: url("../img/sprite-8.png");
+	background-position: 22px;
+	cursor: pointer;
+}
+
+.form-info .plus-2:active::after {	
+	background-image: url("../img/sprite-8.png");
+	background-position: 11px;
+	cursor: pointer;
+}
 
 
 .search {
 	height: 87px;
 	width: 575px;
 	background-color: #766357;	
-	border-color: #766357;
-	
-	
+	border-color: #766357;	
+	position: absolute;	
+	left: 315px;	
+	top: 205px;
+	z-index: 10;
+	outline: none;	
 }
 
 .search:hover {	
 	background-color: #604E43;	
 	border-color: #604E43;
 	cursor: pointer;
-
 }
 
 .search:active {	
@@ -653,7 +830,7 @@ body {
 	color: #fff;
 	border-color: #81B3D2;
 	margin-top: 17px;
-	
+	outline: none;	
 }
 
 .find:hover {	
@@ -669,6 +846,7 @@ body {
 	border-color: #5496BD;
 	cursor: pointer;
 }
+
 
 /* Футер */
 
@@ -700,9 +878,7 @@ body {
 	width: 153px;	
 	float: left;
 	margin-top: 35px;
-	margin-left: 258px;	
-	
-	 
+	margin-left: 258px;		 
 }
 
 .btn {
@@ -847,13 +1023,11 @@ body {
 .form-1 {
 	height: 220px;
 	width: 312px;
-	float: left;
-	
+	float: left;	
 }
 
 .form-1-text label{
-	margin-bottom: 35px;
-	
+	margin-bottom: 35px;	
 }
 
 .form-1-text,
@@ -877,11 +1051,10 @@ input[type="checkbox"] + label::before {
 	position: absolute;
 	height: 22px;
 	width: 22px;	
-	background: url(../img/mini-img8.png);
+	background: url(../img/sprite-9.png);
+	background-position: 22px;
 	top: 0;
-	left: 0;
-	
-	
+	left: 0;	
 }
 
 input[type="checkbox"]:checked + label::after {
@@ -889,22 +1062,16 @@ input[type="checkbox"]:checked + label::after {
 	position: absolute;
 	height: 22px;
 	width: 26px;	
-	background: url(../img/mini-img7.png);
+	background: url(../img/sprite-9.png);
 	top: 0;
 	left: 0;
-
 }
-
-
-
-
 
 .form-2 {
 	height: 220px;
 	width: 288px;
 	float: left;
 }
-
 	
 .form-2-text label{
 	margin-bottom: 35px;
@@ -920,7 +1087,6 @@ input[type="checkbox"]:checked + label::after {
 	height: 220px;
 	width: 600px;
 	float: left;
-	
 }
 
 .filter-range {
@@ -933,20 +1099,16 @@ input[type="checkbox"]:checked + label::after {
 
 .filter-range-title {
   margin-bottom: 9px;
-
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
 }
 
 .price-controls {
-  position: relative;
-  
+  position: relative;  
   height: 36px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -956,21 +1118,17 @@ input[type="checkbox"]:checked + label::after {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
 
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 38px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
@@ -983,40 +1141,33 @@ input[type="checkbox"]:checked + label::after {
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
 }
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -1040,21 +1191,19 @@ input[type="checkbox"]:checked + label::after {
   display: block;
   margin: 0 auto;
   padding: 6px 35px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+
 }
 
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
 /* header-bottom-filter */
@@ -1070,7 +1219,6 @@ input[type="checkbox"]:checked + label::after {
 	padding-top: 30px;
 	position: relative;
 }
-
 
 
 .filter-up {
@@ -1151,8 +1299,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .result {
-	margin-left: 73px;
-	
+	margin-left: 73px;	
 }
 
 .price {
@@ -1220,7 +1367,6 @@ input[type="checkbox"]:checked + label::after {
 	box-sizing: border-box;
 	margin-left: 30px;
 	position: relative;
-
 }
 
 .central-block-info a {	
@@ -1233,7 +1379,6 @@ input[type="checkbox"]:checked + label::after {
 	display: block;
 	margin-top: -22px;
 	margin-bottom: -10px;
-
 }
 
 .central-block-info-1 span {
@@ -1272,8 +1417,7 @@ input[type="checkbox"]:checked + label::after {
 	background-color: #766357;
 	position: absolute;
 	bottom: 0;
-	right: 0;
-	
+	right: 0;	
 }
 
 .brown:hover {
