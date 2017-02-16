@@ -538,12 +538,10 @@ body {
 
 .bg-map {
 	height: 475px;
-	background: url("../img/map.jpg");
-
 }
 
 
-/* Форма */
+/* Форма главной седоны*/
 
 .form {
 	height: 480px;
@@ -563,35 +561,74 @@ body {
 	margin-bottom: 55px;
 	margin-right: auto;
 	margin-left: auto;	
-	background-color: #FF0000;
-	box-sizing: border-box; 
-
-}
-
-.form-info label {		
-	display: block;
-	text-align: left;
+	box-sizing: border-box;
 }
 
 .form-info input {		
-	display: block;
-	width: 345px;
+	width: 330px;
 	height: 35px;
 	background-color: #F2F2F2;
-	margin-left: 110px;
+	margin-bottom: 30px;
+	color: #000;
+	font-weight: bold;
 }
 
-.young-people {
+.form-info input:hover {	
+	background-color: #EBEBEB;
+}
+ 
+ .form-info input:focus {	
+	background-color: #fff;
+	border: 2px solid #E5E5E5;
+}
+
+.form-info .check-in-date {
+	margin-left: 19px;
+	padding-left: 15px;
+	position: relative;
+}
+
+
+.form-info .check-in-date::after {
+	content: "";
+	height: 22px;
+	width: 21px;
+	position: absolute;
+	background-color: red;
+	background-image: url("../img/sprite-6.png");
+
+}
+
+.form-info .date-of-departure {
+	margin-left: 15px;
+	padding-left: 15px;
+}
+
+
+.form-info .old-people {
 	width: 115px;
 	height: 35px;
+	margin-left: 36px;
+	margin-right: 35px;
+	text-align: center;
 }
+ 
+
+.form-info .young-people {
+	width: 115px;
+	height: 35px;
+	margin-left: 30px;
+	text-align: center;
+}
+
 
 
 .search {
-	min-height: 87px;
+	height: 87px;
 	width: 575px;
 	background-color: #766357;	
 	border-color: #766357;
+	
 	
 }
 
@@ -615,6 +652,7 @@ body {
 	background-color: #81B3D2;
 	color: #fff;
 	border-color: #81B3D2;
+	margin-top: 17px;
 	
 }
 
@@ -634,10 +672,16 @@ body {
 
 /* Футер */
 
+.main-footer {
+	height: 593px;
+	background: url("../img/map.jpg");	
+}
+
 .footer-bottom {
 	min-height: 120px;
 	background: #fff;
-	color: #000; 
+	color: #000;
+	opacity: 0.9; 
 }
 
 .footer-bottom b {
@@ -657,12 +701,13 @@ body {
 	float: left;
 	margin-top: 35px;
 	margin-left: 258px;	
+	
 	 
 }
 
 .btn {
 	width: 47px;
-	height: 50px;
+	height: 48px;
 	background-color: #81B3D2;
 	float: left;
 	text-align: center;	
@@ -674,7 +719,7 @@ body {
 	margin-right: 0;
 }
 
-.social-btn-tw .btn::before {
+.social-btn-tw .btn::after {
 	content: "";
 	width: 17px;
 	height: 15px;
@@ -685,7 +730,7 @@ body {
 	background-position: 52px -5px;	
 }
 
-.social-btn-fb .btn::before {
+.social-btn-fb .btn::after {
 	content: "";
 	width: 10px;
 	height: 19px;
@@ -696,7 +741,7 @@ body {
 	background-position: 72px -5px;		
 }
 
-.social-btn-youtube .btn::before {
+.social-btn-youtube .btn::after {
 	content: "";
 	width: 20px;
 	height: 16px;
@@ -716,7 +761,7 @@ body {
 	background-color: #5496BD;	
 }
 
-.btn:active::before {
+.btn:active::after {
 	background-color: #5496BD;
 	opacity: 0.3;
 }
