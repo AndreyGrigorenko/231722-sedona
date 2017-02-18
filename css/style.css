@@ -300,14 +300,15 @@ body {
 	height: 220px;
 	background-color: #fff;	
 	box-sizing: border-box;
-	padding-top: 43px;
-	padding-left: 356px;
+	padding-top: 43px;		
 }
 
 .header-bottom-text {
 	width: 600px;
 	height: 100px;
-	text-align: center;		
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 
@@ -322,7 +323,7 @@ body {
 	width: 400px;
 	float: left;
 	box-sizing: border-box;
-	padding-top: 40px;
+	padding-top: 35px;
 	background-color: #81B3D2;	
 }
 
@@ -459,8 +460,7 @@ body {
 /* Инфо-блок-4 */
 
 .info-block-4 {
-	height: 256px;
-		
+	height: 256px;		
 }
 
 .info-block-4 .item {
@@ -468,7 +468,7 @@ body {
 	width: 400px;
 	float: left;
 	box-sizing: border-box;
-	padding-top: 50px;
+	padding-top: 32px;
 	padding-left: 73px;
 	background-color: #EEEEEE;
 	text-align: center;	
@@ -497,13 +497,14 @@ body {
 	background-color: #fff;
 	position: relative;
 	box-sizing: border-box;
-	padding-top: 57px;
-	padding-left: 312px;	
+	padding-top: 37px;		
 }
 
 .info-block-5-text {
 	height: 95px;
-	width: 576px;	
+	width: 576px;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 /* Карта */
@@ -517,7 +518,7 @@ body {
 
 .form {
 	height: 395px;
-	width: 575px;
+	width: 570px;
 	background-color: #fff;
 	position: absolute;	
 	left: 315px;
@@ -793,7 +794,7 @@ input::-ms-clear {
 
 .search {
 	height: 87px;
-	width: 575px;
+	width: 570px;
 	background-color: #766357;	
 	border-color: #766357;	
 	position: absolute;	
@@ -823,7 +824,7 @@ input::-ms-clear {
 	background-color: #81B3D2;
 	color: #fff;
 	border-color: #81B3D2;
-	margin-top: 19px;
+	margin-top: 13px;
 	outline: none;
 	border: none;	
 	clear: both;
@@ -874,7 +875,7 @@ input::-ms-clear {
 	width: 153px;	
 	float: left;
 	margin-top: 35px;
-	margin-left: 258px;		 
+	margin-left: 243px;		 
 }
 
 .btn {
@@ -943,8 +944,7 @@ input::-ms-clear {
 	width: 205px;
 	float: right;
 	margin-top: 40px;
-	margin-right: 104px;
-		
+	margin-right: 104px;		
 }
 
 
@@ -953,7 +953,7 @@ input::-ms-clear {
 .website {
 	display: block;	
 	padding-top: 5px;
-	margin-left: 3px;				
+	margin-left: 10px;				
 }
 
 .html-academy {
@@ -1005,8 +1005,7 @@ input::-ms-clear {
 
 .forms {
 	height: 220px;
-	box-sizing: border-box;
-	padding-top: 30px;
+	box-sizing: border-box;	
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -1014,12 +1013,18 @@ input::-ms-clear {
 	color: #fff;
 }
 
-.forms h3 {	
+.forms h3,
+.forms .filter-range-title {	
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 21px;
 	color: #fff;
+	margin-top: 25px;
+}
+
+.forms h3 {	
+	margin-bottom: 20px;
 }
 
 .form-1 {
@@ -1029,7 +1034,7 @@ input::-ms-clear {
 }
 
 .form-1-text label{
-	margin-bottom: 35px;	
+	margin-bottom: 30px;	
 }
 
 .form-1-text,
@@ -1076,7 +1081,7 @@ input[type="checkbox"]:checked + label::after {
 }
 	
 .form-2-text label{
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 	display: block;
 }
 
@@ -1088,15 +1093,14 @@ input[type="checkbox"]:checked + label::after {
 .form-3 {
 	height: 220px;
 	width: 600px;
-	float: left;
+	float: right;	
 }
 
 .filter-range {
   width: 330px;
   color: #ffffff;
-  text-transform: uppercase;
-  margin-top: 15px;
-  margin-left: 215px;
+  text-transform: uppercase;  
+  margin-left: 195px;
 }
 
 .filter-range-title {
@@ -1365,7 +1369,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .central-block-info {
-	width: 265px;
+	width: 260px;
 	height: 90px;
 	float: left;
 	box-sizing: border-box;
@@ -1386,7 +1390,7 @@ input[type="checkbox"]:checked + label::after {
 
 .central-block-info-1 {
 	width: 100px;
-	margin-top: -33px;
+	margin-top: -30px;
 }
 
 .central-block-info-2 {
