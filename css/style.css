@@ -535,7 +535,7 @@ body {
 	margin-bottom: 55px;
 	margin-right: auto;
 	margin-left: auto;	
-	box-sizing: border-box;		
+	box-sizing: border-box;	
 }
 
 input::-ms-clear {
@@ -550,6 +550,7 @@ input::-ms-clear {
 	color: #000;
 	font-weight: bold;
 	outline: none;
+	border: none;
 }
 
 .form-info input:hover {	
@@ -558,7 +559,7 @@ input::-ms-clear {
  
 .form-info input:focus {	
 	background-color: #fff;
-	border: 2px solid #E5E5E5;	
+	outline: 2px solid #E5E5E5;	
 }
 
 .form-info .check-in-date-text {
@@ -571,7 +572,7 @@ input::-ms-clear {
 	width: 460px;
 	height: 35px;
 	margin-bottom: 30px;
-	outline: none;		
+			
 }
   
 .form-info .calendar-1 {
@@ -649,7 +650,8 @@ input::-ms-clear {
 }
 
 .form-info .old-people {
-	float: left;			
+	float: left;
+			
 }
 
 .form-info .old-people-text {
@@ -721,13 +723,13 @@ input::-ms-clear {
 .form-info .young-people-text {
 	width: 115px;
 	height: 35px;
-	margin-left: 25px;
+	margin-left: 30px;
 	text-align: center;	
 }
 
 .form-info .young-people {
 	float: right;
-
+	
 }
 
 .form-info .minus-2 {
@@ -798,7 +800,8 @@ input::-ms-clear {
 	left: 315px;	
 	top: 205px;
 	z-index: 10;
-	outline: none;	
+	outline: none;
+	border: none;	
 }
 
 .search:hover {	
@@ -820,8 +823,9 @@ input::-ms-clear {
 	background-color: #81B3D2;
 	color: #fff;
 	border-color: #81B3D2;
-	margin-top: 17px;
-	outline: none;	
+	margin-top: 19px;
+	outline: none;
+	border: none;	
 	clear: both;
 }
 
@@ -920,7 +924,7 @@ input::-ms-clear {
 	background-position: 25px -5px;		
 }
 
- .btn:hover {
+.btn:hover {
 	background-color: #669EC0;			
 }
 
@@ -987,6 +991,11 @@ input::-ms-clear {
 	background-position: 226px;	
 }
 
+
+
+
+
+
 /* Cетка каталога седоны */
 
 /* header-middle-forms */
@@ -1005,7 +1014,7 @@ input::-ms-clear {
 	color: #fff;
 }
 
-.forms h3{	
+.forms h3 {	
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
@@ -1371,24 +1380,19 @@ input[type="checkbox"]:checked + label::after {
 
 .central-block-info>a>h2 {		
 	display: block;
-	margin-top: -22px;
-	margin-bottom: 7px;
+	margin-top: -22px;	
 	color: #000;
 }
 
-.central-block-info-1 span {	
-	margin-left: -17px;
-	margin-right: 55px;
+.central-block-info-1 {
+	width: 100px;
+	margin-top: -33px;
 }
 
-.central-block-info-2 span {
-	margin-left: -17px;
-	margin-right: 70px;
-}
-
-.central-block-info-3 span {
-	margin-left: -16px;
-	margin-right: 35px;
+.central-block-info-2 {
+	width: 70px;
+	margin-left: 120px;
+	margin-top: -20px;
 }
 
 /* Кнопки */
@@ -1427,7 +1431,6 @@ input[type="checkbox"]:checked + label::after {
 	color: #857871;
 	background-color:#503E33;
 }
-
 
 .central-block-info>a>h2:hover {
 	color: #81B3D2;
