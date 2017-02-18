@@ -227,7 +227,6 @@ body {
 	height: 57px;
 	background-color: #fff;
 	position: relative;
-
 }
 
 .logo {
@@ -306,9 +305,9 @@ body {
 }
 
 .header-bottom-text {
-	width: 490px;
+	width: 600px;
 	height: 100px;
-	text-align: center;	
+	text-align: center;		
 }
 
 
@@ -324,15 +323,14 @@ body {
 	float: left;
 	box-sizing: border-box;
 	padding-top: 40px;
-	padding-left: 60px;
-	background-color: #81B3D2;
-	
+	background-color: #81B3D2;	
 }
 
 .real-town-text {	
 	height: 147px;
-	width: 283px;	
+	width: 400px;	
 	text-align: center;	
+	box-sizing: border-box;		
 }
 
 .bg-img-1 {
@@ -345,8 +343,7 @@ body {
 /* Инфо-блок-2 */
 
 .info-block-2 {
-	height: 332px;
-	
+	height: 332px;	
 }
 
 .info-block-2 .item {
@@ -404,7 +401,7 @@ body {
 }
 
 .item-text-1 {
-	width: 253px;
+	width: 285px;
 	height: 85px;
 	margin-top: 165px;
 	margin-left: auto;
@@ -420,12 +417,11 @@ body {
 }
 
 .item-text-3 {
-	width: 273px;
+	width: 285px;
 	height: 85px;
 	margin-top: 165px;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
 
@@ -442,15 +438,14 @@ body {
 	float: right;
 	background-color: #81B3D2;
 	box-sizing: border-box;
-	padding-top: 50px;
-	padding-left: 50px;
+	padding-top: 40px;
 }
 
 .devils-bridge-text {	
 	height: 147px;
-	width: 303px;
+	width: 400px;
 	box-sizing: border-box;	
-	text-align: center;	
+	text-align: center;		
 }
 
 .bg-img-2 {
@@ -481,7 +476,7 @@ body {
 
 .item-text-4 {
 	height: 145px;
-	width: 240px;	
+	width: 265px;	
 }
 
 .item-text-5 {
@@ -533,14 +528,14 @@ body {
 
 
 .form-central-block,
-.form-info {
+.form-info {	
 	height: 290px;
 	width: 460px;
 	margin-top: 55px;
 	margin-bottom: 55px;
 	margin-right: auto;
 	margin-left: auto;	
-	box-sizing: border-box;
+	box-sizing: border-box;		
 }
 
 input::-ms-clear {
@@ -561,24 +556,22 @@ input::-ms-clear {
 	background-color: #EBEBEB;
 }
  
- .form-info input:focus {	
+.form-info input:focus {	
 	background-color: #fff;
-	border: 2px solid #E5E5E5;
-	
+	border: 2px solid #E5E5E5;	
 }
 
 .form-info .check-in-date-text {
-	margin-left: 19px;
+	margin-left: 15px;
 	padding-left: 15px;	
 
 }
 
 .form-info .check-in-date {	
-	width: 455px;
+	width: 460px;
 	height: 35px;
 	margin-bottom: 30px;
-	outline: none;
-	border: none;	
+	outline: none;		
 }
   
 .form-info .calendar-1 {
@@ -614,17 +607,15 @@ input::-ms-clear {
 
 
 .form-info .date-of-departure {
-	width: 455px;
+	width: 460px;
 	height: 35px;
-	margin-bottom: 30px;
-	border: none;
+	margin-bottom: 30px;	
 }
 
 .form-info .date-of-departure-text {
-	margin-left: 15px;
-	padding-left: 15px;
+	margin-left: 12px;
+	padding-left: 15px;	
 }
-
 
 .form-info .calendar-2 {
 	width: 21px;
@@ -662,10 +653,9 @@ input::-ms-clear {
 }
 
 .form-info .old-people-text {
-	width: 110px;
+	width: 115px;
 	height: 35px;
-	margin-left: 36px;
-	margin-right: 35px;
+	margin-left: 35px;	
 	text-align: center;	
 }
  
@@ -729,14 +719,15 @@ input::-ms-clear {
 
 
 .form-info .young-people-text {
-	width: 110px;
+	width: 115px;
 	height: 35px;
-	margin-left: 30px;
+	margin-left: 25px;
 	text-align: center;	
 }
 
 .form-info .young-people {
 	float: right;
+
 }
 
 .form-info .minus-2 {
@@ -831,6 +822,7 @@ input::-ms-clear {
 	border-color: #81B3D2;
 	margin-top: 17px;
 	outline: none;	
+	clear: both;
 }
 
 .find:hover {	
@@ -944,27 +936,28 @@ input::-ms-clear {
 
 .footer-copyright {
 	height: 39px;
-	width: 195px;
+	width: 205px;
 	float: right;
 	margin-top: 40px;
-	margin-right: 104px;	
+	margin-right: 104px;
+		
 }
 
 
 /* html-academy */
 
 .website {
-	display: block;
-	float: left;
+	display: block;	
 	padding-top: 5px;
-		
+	margin-left: 3px;				
 }
 
 .html-academy {
 	height: 39px;
 	width: 113px;
-	float: right;
 	position: relative;	
+	left: 92px;
+	bottom: 31px;	
 }
 
 .html-academy::after {
@@ -1358,15 +1351,17 @@ input[type="checkbox"]:checked + label::after {
 
 .central-block img {
 	float: left;
+	display: block;
+
 }
 
 .central-block-info {
-	width: 260px;
+	width: 265px;
 	height: 90px;
 	float: left;
 	box-sizing: border-box;
 	margin-left: 30px;
-	position: relative;
+	position: relative;	
 }
 
 .central-block-info a {	
@@ -1374,23 +1369,26 @@ input[type="checkbox"]:checked + label::after {
 	padding: 3px 17px;
 }
 
-.central-block-info h2>a {	
-	padding: 0;
+.central-block-info>a>h2 {		
 	display: block;
 	margin-top: -22px;
-	margin-bottom: -10px;
+	margin-bottom: 7px;
+	color: #000;
 }
 
-.central-block-info-1 span {
-	margin-right: 37px;
+.central-block-info-1 span {	
+	margin-left: -17px;
+	margin-right: 55px;
 }
 
 .central-block-info-2 span {
-	margin-right: 62px;
+	margin-left: -17px;
+	margin-right: 70px;
 }
 
 .central-block-info-3 span {
-	margin-right: 19px;
+	margin-left: -16px;
+	margin-right: 35px;
 }
 
 /* Кнопки */
@@ -1431,11 +1429,11 @@ input[type="checkbox"]:checked + label::after {
 }
 
 
-.central-block-info  h2 a:hover {
+.central-block-info>a>h2:hover {
 	color: #81B3D2;
 }
 
-.central-block-info  h2 a:active {
+.central-block-info>a>h2:active {
 	color: #CACACA;
 }
 
