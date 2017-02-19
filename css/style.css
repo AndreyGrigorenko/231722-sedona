@@ -572,8 +572,7 @@ input::-ms-clear {
 .form-info .check-in-date {	
 	width: 460px;
 	height: 35px;
-	margin-bottom: 30px;
-			
+	margin-bottom: 30px;			
 }
   
 .form-info .calendar-1 {
@@ -592,7 +591,7 @@ input::-ms-clear {
 	top: 9px;
 	right: 10px;
 	background-image: url("../img/sprite-6.png");
-	cursor: pointer;
+	cursor: pointer;	
 }
 
 .form-info .calendar-1:hover::after {	
@@ -656,12 +655,30 @@ input::-ms-clear {
 }
 
 .form-info .old-people-text {
-	width: 115px;
+	width: 38px;
 	height: 35px;
-	margin-left: 35px;	
+	margin-left: 75px;	
 	text-align: center;	
 }
  
+
+ .button-minus-1 {
+ 	height: 37px;
+ 	width: 38px;
+ 	position: absolute;
+ 	top: 188px;
+ 	left: 167px;
+ 	background-color: #F2F2F2;
+ 	outline: none;
+ 	border: none;
+ 	cursor: pointer;
+ }
+
+.button-minus-1:hover,
+.button-minus-1:active { 	
+	background-color: #EBEBEB;
+ }
+
 .form-info .minus-1 {
 	width: 12px;
 	height: 3px;
@@ -690,6 +707,24 @@ input::-ms-clear {
 	background-position: 12px;
 	cursor: pointer;
 }
+
+
+.button-plus-1 {
+ 	height: 37px;
+ 	width: 38px;
+ 	position: absolute;
+ 	top: 188px;
+ 	left: 243px;
+ 	background-color: #F2F2F2;
+ 	outline: none;
+ 	border: none;
+ 	cursor: pointer;
+ }
+
+.button-plus-1:hover,
+.button-plus-1:active { 	
+	background-color: #EBEBEB;
+ }
 
 .form-info .plus-1 {
 	width: 11px;
@@ -722,9 +757,10 @@ input::-ms-clear {
 
 
 .form-info .young-people-text {
-	width: 115px;
+	width: 38px;
 	height: 35px;
-	margin-left: 30px;
+	margin-left: 70px;
+	margin-right: 40px;	
 	text-align: center;	
 }
 
@@ -732,6 +768,23 @@ input::-ms-clear {
 	float: right;
 	
 }
+
+.button-minus-2 {
+ 	height: 37px;
+ 	width: 38px;
+ 	position: absolute;
+ 	top: 188px;
+ 	left: 398px;
+ 	background-color: #F2F2F2;
+ 	outline: none;
+ 	border: none;
+ 	cursor: pointer;
+ }
+
+.button-minus-2:hover,
+.button-minus-2:active { 	
+	background-color: #EBEBEB;
+ }
 
 .form-info .minus-2 {
 	width: 12px;
@@ -761,6 +814,23 @@ input::-ms-clear {
 	background-position: 12px;
 	cursor: pointer;
 }
+
+.button-plus-2 {
+ 	height: 37px;
+ 	width: 38px;
+ 	position: absolute;
+ 	top: 188px;
+ 	left: 474px;
+ 	background-color: #F2F2F2;
+ 	outline: none;
+ 	border: none;
+ 	cursor: pointer;
+ }
+
+.button-plus-2:hover,
+.button-plus-2:active { 	
+	background-color: #EBEBEB;
+ }
 
 .form-info .plus-2 {
 	width: 11px;
@@ -1215,7 +1285,7 @@ input[type="checkbox"]:checked + label::after {
 /* header-bottom-filter */
 
 .header-bottom-filter {
-	height: 86px;		
+	height: 90px;		
 	background-color: #FEFEFE;
 	border-bottom: 1px solid #E5E5E5; 
 	display: inline-block;
@@ -1232,7 +1302,7 @@ input[type="checkbox"]:checked + label::after {
 	width: 11px;
 	float: left;
 	position: relative;	
-	margin-left: 1090px;
+	margin-left: 1093px;
 	margin-top: -20px;
 	cursor: pointer;
 }
@@ -1302,14 +1372,11 @@ input[type="checkbox"]:checked + label::after {
 	font-size: 12px;	
 	border-bottom: none;
 	color: #81b3d2;
+	margin-left: 40px;
 }
 
 .result {
 	margin-left: 73px;	
-}
-
-.price {
-	margin-left: 40px;
 }
 
 .sorting {
@@ -1317,7 +1384,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .header-bottom-filter a {
-	margin-left: 40px;
+	margin-left: 35px;
 }
 
 /* container-1 */ /* container-2 */ /* container-3 */
