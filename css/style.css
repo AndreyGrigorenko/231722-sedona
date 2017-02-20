@@ -273,7 +273,7 @@ body {
 }
 
 .header-middle {
-	height: 510px;	
+	height: 507px;	
 	padding-top: 75px;
 	padding-left: 372px;
 	box-sizing: border-box;
@@ -294,10 +294,10 @@ body {
 }
 
 .header-bottom {
-	height: 220px;
+	height: 216px;
 	background-color: #fff;	
 	box-sizing: border-box;
-	padding-top: 43px;		
+	padding-top: 40px;		
 }
 
 .header-bottom-text {
@@ -308,6 +308,9 @@ body {
 	margin-right: auto;	
 }
 
+.five {
+margin-top: 26px;
+}
 
 /* Инфо-блок-1 */
 
@@ -339,6 +342,7 @@ body {
 
 .real-town-text p {
 	width: 290px;
+	margin-top: 22px;
 	margin-right: auto;
 	margin-left: auto;	
 }
@@ -352,7 +356,7 @@ body {
 /* Инфо-блок-2 */
 
 .info-block-2 {
-	height: 332px;	
+	height: 330px;	
 }
 
 .info-block-2 .item {
@@ -411,24 +415,24 @@ body {
 
 .item-text-1 {
 	width: 285px;
-	height: 85px;
-	margin-top: 165px;
+	height: 330px;
+	margin-top: 162px;
 	margin-left: auto;
 	margin-right: auto;	
 }
 
 .item-text-2 {
 	width: 285px;
-	height: 85px;
-	margin-top: 165px;
+	height: 330px;
+	margin-top: 162px;
 	margin-left: auto;
 	margin-right: auto;	
 }
 
 .item-text-3 {
 	width: 285px;
-	height: 85px;
-	margin-top: 165px;
+	height: 330px;
+	margin-top: 162px;
 	margin-left: auto;
 	margin-right: auto;	
 }
@@ -445,7 +449,7 @@ body {
 	float: right;
 	background-color: #81B3D2;
 	box-sizing: border-box;
-	padding-top: 40px;
+	padding-top: 34px;
 }
 
 .devils-bridge-text {	
@@ -457,12 +461,14 @@ body {
 
 .devils-bridge-text>h3 {
 	width: 151px;
+	margin-bottom: 24px;
 	margin-right: auto;
 	margin-left: auto;	
 }
 
 .devils-bridge-text p {
 	width: 310px;
+	margin-top: 21px;
 	margin-right: auto;
 	margin-left: auto;	
 }
@@ -484,14 +490,19 @@ body {
 	width: 400px;
 	float: left;
 	box-sizing: border-box;
-	padding-top: 32px;
-	padding-left: 73px;
+	padding-top: 27px;
+	padding-left: 69px;
 	background-color: #EEEEEE;
 	text-align: center;	
 }
 
+.info-block-4 p {
+	margin-top: 21px;
+}
+
 .item h3 {
 	width: 120px;
+	margin-bottom: 23px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -511,7 +522,7 @@ body {
 	background-color: #fff;
 	position: relative;
 	box-sizing: border-box;
-	padding-top: 37px;		
+	padding-top: 31px;		
 }
 
 .info-block-5-text {
@@ -519,6 +530,10 @@ body {
 	width: 576px;
 	margin-left: auto;
 	margin-right: auto;	
+}
+
+.interested-info {
+	margin-top: 30px;
 }
 
 /* Карта */
@@ -593,7 +608,7 @@ input::-ms-clear {
 	height: 22px;
 	position: relative;
 	top: -70px;
-	left: 440px;
+	left: 440px;	
 }
 
 .form-info .calendar-1::after {
@@ -604,7 +619,7 @@ input::-ms-clear {
 	top: 9px;
 	right: 10px;
 	background-image: url("../img/sprite-6.png");
-	cursor: pointer;	
+	cursor: pointer;		
 }
 
 .form-info .calendar-1:hover::after {	
@@ -622,7 +637,7 @@ input::-ms-clear {
 .form-info .date-of-departure {
 	width: 460px;
 	height: 35px;
-	margin-bottom: 30px;	
+	margin-bottom: 34px;	
 }
 
 .form-info .date-of-departure-text {
@@ -676,7 +691,7 @@ input::-ms-clear {
  	height: 37px;
  	width: 38px;
  	position: absolute;
- 	top: 185px;
+ 	top: 189px;
  	left: 167px;
  	background-color: #F2F2F2;
  	outline: none;
@@ -715,7 +730,7 @@ input::-ms-clear {
  	height: 37px;
  	width: 38px;
  	position: absolute;
- 	top: 185px;
+ 	top: 189px;
  	left: 243px;
  	background-color: #F2F2F2;
  	outline: none;
@@ -754,7 +769,7 @@ input::-ms-clear {
 .form-info .young-people-text {
 	width: 38px;
 	height: 35px;
-	margin-left: 70px;
+	margin-left: 59px;
 	margin-right: 40px;	
 	text-align: center;	
 }
@@ -768,7 +783,7 @@ input::-ms-clear {
  	height: 37px;
  	width: 38px;
  	position: absolute;
- 	top: 185px;
+ 	top: 189px;
  	left: 398px;
  	background-color: #F2F2F2;
  	outline: none;
@@ -808,7 +823,7 @@ input::-ms-clear {
  	height: 37px;
  	width: 38px;
  	position: absolute;
- 	top: 185px;
+ 	top: 189px;
  	left: 474px;
  	background-color: #F2F2F2;
  	outline: none;
@@ -876,7 +891,7 @@ input::-ms-clear {
 	background-color: #81B3D2;
 	color: #fff;
 	border-color: #81B3D2;
-	margin-top: 25px;
+	margin-top: 23px;
 	outline: none;
 	border: none;	
 	clear: both;
@@ -913,8 +928,8 @@ input::-ms-clear {
 .footer-bottom b {
 	display: block;	
 	float: left;
-	margin-left: 132px;
-	margin-top: 48px;
+	margin-left: 134px;
+	margin-top: 43px;
 		
 }
 
@@ -924,8 +939,8 @@ input::-ms-clear {
 	min-height: 50px;
 	width: 153px;	
 	float: left;
-	margin-top: 35px;
-	margin-left: 243px;		 
+	margin-top: 33px;
+	margin-left: 255px;		 
 }
 
 .btn {
@@ -993,8 +1008,8 @@ input::-ms-clear {
 	height: 39px;
 	width: 205px;
 	float: right;
-	margin-top: 40px;
-	margin-right: 104px;		
+	margin-top: 38px;
+	margin-right: 102px;		
 }
 
 /* html-academy */
@@ -1052,7 +1067,7 @@ input::-ms-clear {
 }
 
 .forms {
-	height: 220px;
+	height: 216px;
 	box-sizing: border-box;	
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
@@ -1072,17 +1087,17 @@ input::-ms-clear {
 }
 
 .forms h3 {	
-	margin-bottom: 20px;
+	margin-bottom: 26px;
 }
 
 .form-1 {
-	height: 220px;
+	height: 216px;
 	width: 312px;
 	float: left;	
 }
 
 .form-1-text label{
-	margin-bottom: 30px;	
+	margin-bottom: 24px;	
 }
 
 .form-1-text,
@@ -1096,7 +1111,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"] + label {
 	display: block;
-	padding-left: 35px;
+	padding-left: 40px;
 	position: relative;
 	cursor: pointer;
 }
@@ -1143,13 +1158,13 @@ input[type="checkbox"]:checked:disabled + label::after {
 }
 
 .form-2 {
-	height: 220px;
+	height: 216px;
 	width: 288px;
 	float: left;
 }
 	
 .form-2-text label{
-	margin-bottom: 30px;
+	margin-bottom: 24px;
 	display: block;
 }
 
@@ -1159,16 +1174,20 @@ input[type="checkbox"]:checked:disabled + label::after {
 }
 
 .form-3 {
-	height: 220px;
+	height: 216px;
 	width: 600px;
 	float: right;	
 }
 
+.forms .filter-range-title {
+	margin-left: -10px;
+}
+
 .filter-range {
-	width: 330px;
+	width: 318px;
 	color: #ffffff;
 	text-transform: uppercase;  
-	margin-left: 195px;
+	margin-left: 210px;
 }
 
 .filter-range-title {
@@ -1181,7 +1200,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 .price-controls {
  	position: relative;  
   	height: 36px;
- 	margin-bottom: 20px;
+ 	margin-bottom: 18px;
   	font-size: 0;
   	border: 2px solid #ffffff;
  	border-radius: 2px;
@@ -1264,8 +1283,8 @@ input[type="checkbox"]:checked:disabled + label::after {
 
 .btn-transparent {
   	display: block;
-  	margin: 0 auto;
-  	padding: 6px 35px;
+  	margin-left: 85px;
+	padding: 6px 30px;
   	font-size: 14px;
   	line-height: 20px;
   	color: #ffffff;
@@ -1289,7 +1308,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 /* header-bottom-filter */
 
 .header-bottom-filter {
-	height: 90px;		
+	height: 87px;		
 	background-color: #FEFEFE;
 	border-bottom: 1px solid #E5E5E5; 
 	display: inline-block;
@@ -1334,7 +1353,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 	float: right;
 	position: relative;
 	margin-right: 73px;
-	margin-top: -20px;	
+	margin-top: -22px;	
 }
 
 .filter-down::after {
@@ -1379,15 +1398,15 @@ input[type="checkbox"]:checked:disabled + label::after {
 }
 
 .result {
-	margin-left: 73px;	
+	margin-left: 71px;	
 }
 
 .sorting {
-	margin-left: 50px;
+	margin-left: 48px;
 }
 
 .header-bottom-filter a {
-	margin-left: 35px;
+	margin-left: 33px;
 }
 
 /* container-1 */ /* container-2 */ /* container-3 */
@@ -1395,10 +1414,10 @@ input[type="checkbox"]:checked:disabled + label::after {
 .container-1,
 .container-2,
 .container-3 {
-	height: 150px;		
+	height: 151px;		
 	background-color: #FEFEFE;
 	box-sizing: border-box;
-	padding-left: 73px;
+	padding-left: 72px;
 	padding-top: 30px;
 	border-bottom: 1px solid #E5E5E5;
 	position: relative;
@@ -1409,7 +1428,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 	width: 89px;
 	height: 17px;
 	right: 73px;
-	top: 35px;
+	top: 29px;
 	background-image: url("../img/sprite-3.png");	
 }
 
@@ -1418,7 +1437,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 	width: 65px;
 	height: 17px;
 	right: 73px;
-	top: 35px;
+	top: 29px;
 	background-image: url("../img/sprite-3.png");	
 }
 
@@ -1427,7 +1446,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 	width: 42px;
 	height: 17px;
 	right: 73px;
-	top: 35px;
+	top: 29px;
 	background-image: url("../img/sprite-3.png");	
 }
 
@@ -1438,7 +1457,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 }
 
 .central-block-info {
-	width: 260px;
+	width: 258px;
 	height: 90px;
 	float: left;
 	box-sizing: border-box;
@@ -1464,7 +1483,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 
 .central-block-info-2 {
 	width: 70px;
-	margin-left: 120px;
+	margin-left: 115px;
 	margin-top: -20px;
 }
 
