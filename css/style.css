@@ -196,19 +196,21 @@ body {
 }
 
 .clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+  	content: "";
+  	display: table;
+  	clear: both;
 }
 
 .central-block{
-  width: 1200px;
-  margin: 0 auto;
+ 	width: 1200px;
+ 	margin-left: auto;
+  	margin-right: auto;
 }
 
 .main-central-block {
 	width: 1200px;
-  	margin: 0 auto;
+  	margin-left: auto;
+  	margin-right: auto;
 	box-shadow: 0 0 20px 3px #CACACA;
 }
 
@@ -216,6 +218,8 @@ body {
 
 .main-header {
 	background: url("../img/background-photo1.jpg") no-repeat center top;
+	background-color: #D6E7F1;
+	color: #000;	
 }
 
 .header-top {
@@ -1040,8 +1044,11 @@ input::-ms-clear {
 /* Cетка каталога седоны */
 
 /* header-middle-forms */
+
 .main-header-2 {
 	background: url("../img/background-photo2.jpg") no-repeat center top;
+	background-color: #A08676;
+	color: #fff;
 }
 
 .forms {
@@ -1100,9 +1107,18 @@ input[type="checkbox"] + label::before {
 	height: 22px;
 	width: 22px;	
 	background: url(../img/sprite-9.png);
-	background-position: 22px;
+	background-position: 48px;
 	top: 0;
 	left: 0;	
+}
+
+input[type="checkbox"]:hover + label::before {
+	background: url(../img/sprite-9.png);
+	background-position: 48px;
+}
+
+input[type="checkbox"]:disabled + label::before {
+	background: url(../img/sprite-9.png);		
 }
 
 input[type="checkbox"]:checked + label::after {
@@ -1111,8 +1127,19 @@ input[type="checkbox"]:checked + label::after {
 	height: 22px;
 	width: 26px;	
 	background: url(../img/sprite-9.png);
+	background-position: 26px;
 	top: 0;
 	left: 0;
+}
+
+input[type="checkbox"]:checked:hover + label::after {	
+	background: url(../img/sprite-9.png);
+	background-position: 26px;	
+}
+
+input[type="checkbox"]:checked:disabled + label::after {
+	background: url(../img/sprite-9.png);
+	background-position: 74px;	
 }
 
 .form-2 {
@@ -1182,7 +1209,7 @@ input[type="checkbox"]:checked + label::after {
 .price-controls .min-price,
 .price-controls .max-price {
   	width: 90px;
-  	padding-left: 65px;
+  	padding-left: 65px;  	
 }
 
 .price-controls input {
@@ -1192,6 +1219,7 @@ input[type="checkbox"]:checked + label::after {
   	font: inherit;
   	background: none;
   	border: none;
+  	outline: none;
 }
 
 .range-controls {
@@ -1246,6 +1274,7 @@ input[type="checkbox"]:checked + label::after {
   	border: 2px solid #ffffff;
   	border-radius: 2px;
   	cursor: pointer;
+  	outline: none;
 }
 
 .btn-transparent:hover {
