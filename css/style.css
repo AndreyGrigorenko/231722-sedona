@@ -1282,6 +1282,10 @@ input[type="checkbox"]:checked:disabled + label::after {
   	background: #ffffff;
 }
 
+.btn-transparent:active {
+  	color: #000000;
+  	background: #ffffff;
+}
 /* header-bottom-filter */
 
 .header-bottom-filter {
