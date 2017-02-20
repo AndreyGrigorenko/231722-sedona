@@ -7,8 +7,8 @@ body {
 	text-transform: uppercase;	
 }
 
-/*Текстовые стили главной седоны*/
-
+/*Текстовые стили главной седоны*/ /*--уточните Б17. Проект соответствует техническому заданию
+                                    Не выполнены обязательные требования технического задания-*/
 .main-menu a {
 	font-family: "PT Sans", "Arial", sans-serif;	 
 	font-weight: bold;
@@ -309,7 +309,7 @@ body {
 }
 
 .five {
-margin-top: 26px;
+	margin-top: 26px;
 }
 
 /* Инфо-блок-1 */
@@ -1453,7 +1453,6 @@ input[type="checkbox"]:checked:disabled + label::after {
 .central-block img {
 	float: left;
 	display: block;
-
 }
 
 .central-block-info {
