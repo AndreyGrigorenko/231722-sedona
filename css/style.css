@@ -7,8 +7,8 @@ body {
 	text-transform: uppercase;	
 }
 
-/*Текстовые стили главной седоны*/ /*--уточните Б17. Проект соответствует техническому заданию
-                                    Не выполнены обязательные требования технического задания-*/
+/*Текстовые стили главной седоны*/
+
 .main-menu a {
 	font-family: "PT Sans", "Arial", sans-serif;	 
 	font-weight: bold;
@@ -214,6 +214,15 @@ body {
 	box-shadow: 0 0 20px 3px #CACACA;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
 /* Хедер */
 
 .main-header {
@@ -223,7 +232,7 @@ body {
 }
 
 .header-top {
-	height: 57px;
+	min-height: 57px;
 	background-color: #fff;
 	position: relative;
 }
@@ -236,11 +245,11 @@ body {
 }
 
 .main-menu {	
-	height: 57px;
+	min-height: 57px;
 	width: 1200px;
 	margin: 0 auto;	
 	box-sizing: border-box;
-	padding-top: 16px;
+	padding-top: 14px;
 	font-size: 0;
 }
 
@@ -260,6 +269,12 @@ body {
 	margin-right: 240px;
 }
 
+.main-menu li:last-child {
+	padding-left: 88px;
+	text-align: left;
+	width: 152px;
+}
+
 .main-menu a {
 	text-decoration: none;		
 }
@@ -275,7 +290,7 @@ body {
 .header-middle {
 	height: 507px;	
 	padding-top: 75px;
-	padding-left: 372px;
+	padding-left: 371px;
 	box-sizing: border-box;
 	position: relative;
 }
@@ -302,7 +317,7 @@ body {
 
 .header-bottom-text {
 	width: 600px;
-	height: 100px;
+	min-height: 100px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;	
@@ -323,12 +338,12 @@ body {
 	width: 400px;
 	float: left;
 	box-sizing: border-box;
-	padding-top: 35px;
+	padding-top: 33px;
 	background-color: #81B3D2;	
 }
 
 .real-town-text {	
-	height: 147px;
+	min-height: 147px;
 	width: 400px;	
 	text-align: center;	
 	box-sizing: border-box;		
@@ -337,7 +352,8 @@ body {
 .real-town-text>h3 {
 	width: 130px;
 	margin-right: auto;
-	margin-left: auto;	
+	margin-left: auto;
+	margin-bottom: 24px;	
 }
 
 .real-town-text p {
@@ -360,7 +376,7 @@ body {
 }
 
 .info-block-2 .item {
-	height: 332px;
+	height: 330px;
 	width: 400px;
 	float: left;
 	background-color: #fff;
@@ -373,20 +389,21 @@ body {
 	content: "";
 	height: 76px;
 	width: 75px;
-	bottom: 200px;
-	left: 165px;
+	bottom: 199px;	
 	position: absolute;
 }
 
 .info-block-2 .item-1::before {
 	height: 72px;
 	width: 75px;
+	left: 162px;
 	background-image: url("../img/sprite-1.png");			
 }
 
 .info-block-2 .item-2::before {
 	height: 70px;
 	width: 74px;
+	left: 163px;
 	background-image: url("../img/sprite-1.png");
 	background-position: 138px 0,5px;		
 }
@@ -394,6 +411,7 @@ body {
 .info-block-2 .item-3::before {
 	height: 76px;
 	width: 64px;
+	left: 168px;
 	background-image: url("../img/sprite-1.png");
 	background-position: 64px 0,5px;		
 }
@@ -413,26 +431,12 @@ body {
 	margin-top: 57px;
 }
 
-.item-text-1 {
-	width: 285px;
-	height: 330px;
-	margin-top: 162px;
-	margin-left: auto;
-	margin-right: auto;	
-}
-
-.item-text-2 {
-	width: 285px;
-	height: 330px;
-	margin-top: 162px;
-	margin-left: auto;
-	margin-right: auto;	
-}
-
+.item-text-1,
+.item-text-2,
 .item-text-3 {
 	width: 285px;
-	height: 330px;
-	margin-top: 162px;
+	min-height: 330px;
+	margin-top: 160px;
 	margin-left: auto;
 	margin-right: auto;	
 }
@@ -453,7 +457,7 @@ body {
 }
 
 .devils-bridge-text {	
-	height: 147px;
+	min-height: 147px;
 	width: 400px;
 	box-sizing: border-box;	
 	text-align: center;		
@@ -468,7 +472,7 @@ body {
 
 .devils-bridge-text p {
 	width: 310px;
-	margin-top: 19px;
+	margin-top: 21px;
 	margin-right: auto;
 	margin-left: auto;	
 }
@@ -490,8 +494,8 @@ body {
 	width: 400px;
 	float: left;
 	box-sizing: border-box;
-	padding-top: 25px;
-	padding-left: 69px;
+	padding-top: 26px;
+	padding-left: 67px;
 	background-color: #EEEEEE;
 	text-align: center;	
 }
@@ -502,7 +506,7 @@ body {
 
 .item h3 {
 	width: 120px;
-	margin-bottom: 23px;
+	margin-bottom: 25px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -510,14 +514,14 @@ body {
 .item-text-4,
 .item-text-5,
 .item-text-6 {
-	height: 145px;
+	min-height: 145px;
 	width: 265px;	
 }
  
 /* Инфо-блок-5 */
 
 .info-block-5 {
-	height: 292px;
+	height: 291px;
 	text-align: center;
 	background-color: #fff;
 	position: relative;
@@ -526,7 +530,7 @@ body {
 }
 
 .info-block-5-text {
-	height: 95px;
+	min-height: 95px;
 	width: 576px;
 	margin-left: auto;
 	margin-right: auto;	
@@ -539,7 +543,7 @@ body {
 /* Карта */
 
 .bg-map {
-	height: 475px;
+	height: 473px;
 }
 
 /* Форма главной седоны*/
@@ -551,24 +555,20 @@ body {
 	position: absolute;	
 	left: 315px;
 	right: 315px;
-	top: 293px;
+	top: 290px;
 	box-shadow: 0 0 10px 3px #A3A3A3;	
 }
 
 
 .form-central-block,
 .form-info {	
-	height: 290px;
+	height: 287px;
 	width: 460px;
 	margin-top: 55px;
 	margin-bottom: 55px;
 	margin-right: auto;
 	margin-left: auto;	
 	box-sizing: border-box;	
-}
-
-input::-ms-clear {
-	display: none;
 }
 
 .form-info input {		
@@ -594,7 +594,6 @@ input::-ms-clear {
 .form-info .check-in-date-text {
 	margin-left: 15px;
 	padding-left: 15px;	
-
 }
 
 .form-info .check-in-date {	
@@ -617,7 +616,7 @@ input::-ms-clear {
 	height: 22px;
 	position: absolute;
 	top: 9px;
-	right: 10px;
+	right: 15px;
 	background-image: url("../img/sprite-6.png");
 	cursor: pointer;		
 }
@@ -641,7 +640,7 @@ input::-ms-clear {
 }
 
 .form-info .date-of-departure-text {
-	margin-left: 12px;
+	margin-left: 13px;
 	padding-left: 15px;	
 }
 
@@ -659,7 +658,7 @@ input::-ms-clear {
 	height: 22px;
 	position: absolute;
 	top: 9px;
-	right: 10px;
+	right: 15px;
 	background-image: url("../img/sprite-6.png");
 	cursor: pointer;
 }
@@ -860,7 +859,7 @@ input::-ms-clear {
 }
 
 .search {
-	height: 87px;
+	height: 86px;
 	width: 570px;
 	background-color: #766357;	
 	border-color: #766357;	
@@ -869,7 +868,7 @@ input::-ms-clear {
 	top: 205px;
 	z-index: 10;
 	outline: none;
-	border: none;	
+	border: none;		
 }
 
 .search:hover {	
@@ -886,12 +885,12 @@ input::-ms-clear {
 }
 
 .find {
-	height: 60px;
+	height: 58px;
 	width: 460px;
 	background-color: #81B3D2;
 	color: #fff;
 	border-color: #81B3D2;
-	margin-top: 23px;
+	margin-top: 27px;
 	outline: none;
 	border: none;	
 	clear: both;
@@ -928,23 +927,22 @@ input::-ms-clear {
 .footer-bottom b {
 	display: block;	
 	float: left;
-	margin-left: 134px;
-	margin-top: 43px;
-		
+	margin-left: 133px;
+	margin-top: 46px;		
 }
 
 /*Соцсети*/
 
 .footer-social {
-	min-height: 50px;
+	height: 50px;
 	width: 153px;	
 	float: left;
-	margin-top: 33px;
+	margin-top: 36px;
 	margin-left: 255px;		 
 }
 
 .btn {
-	width: 47px;
+	width: 46px;
 	height: 48px;
 	background-color: #81B3D2;
 	float: left;
@@ -974,7 +972,7 @@ input::-ms-clear {
 	height: 19px;
 	position: absolute;
 	top: 14px;
-	left: 16px;	
+	left: 18px;	
 	background-image: url("../img/sprite-2.png");
 	background-position: 72px -5px;		
 }
@@ -984,8 +982,8 @@ input::-ms-clear {
 	width: 20px;
 	height: 16px;
 	position: absolute;
-	top: 18px;
-	left: 14px;	
+	top: 17px;
+	left: 13px;
 	background-image: url("../img/sprite-2.png");
 	background-position: 25px -5px;		
 }
@@ -1008,8 +1006,8 @@ input::-ms-clear {
 	height: 39px;
 	width: 205px;
 	float: right;
-	margin-top: 38px;
-	margin-right: 102px;		
+	margin-top: 41px;
+	margin-right: 103px;		
 }
 
 /* html-academy */
@@ -1191,7 +1189,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 }
 
 .filter-range-title {
-  	margin-bottom: 9px;
+  	margin-bottom: 11px;
   	font-weight: 600;
   	font-size: 16px;
   	line-height: 21px;
@@ -1199,8 +1197,8 @@ input[type="checkbox"]:checked:disabled + label::after {
 
 .price-controls {
  	position: relative;  
-  	height: 36px;
- 	margin-bottom: 18px;
+  	height: 32px;
+ 	margin-bottom: 20px;
   	font-size: 0;
   	border: 2px solid #ffffff;
  	border-radius: 2px;
@@ -1220,7 +1218,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 .price-controls label {
   	display: inline-block;
   	font-size: 14px;
-  	line-height: 38px;
+  	line-height: 32px;
   	vertical-align: top;
   	cursor: pointer;
 }
@@ -1229,6 +1227,10 @@ input[type="checkbox"]:checked:disabled + label::after {
 .price-controls .max-price {
   	width: 90px;
   	padding-left: 65px;  	
+}
+
+.price-controls .max-price {
+	padding-left: 57px;
 }
 
 .price-controls input {
@@ -1284,7 +1286,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 .btn-transparent {
   	display: block;
   	margin-left: 85px;
-	padding: 6px 30px;
+	padding: 6px 31px;
   	font-size: 14px;
   	line-height: 20px;
   	color: #ffffff;
@@ -1305,6 +1307,7 @@ input[type="checkbox"]:checked:disabled + label::after {
   	color: #000000;
   	background: #ffffff;
 }
+
 /* header-bottom-filter */
 
 .header-bottom-filter {
@@ -1427,7 +1430,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 	position: absolute;
 	width: 89px;
 	height: 17px;
-	right: 73px;
+	right: 72px;
 	top: 29px;
 	background-image: url("../img/sprite-3.png");	
 }
@@ -1436,7 +1439,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 	position: absolute;
 	width: 65px;
 	height: 17px;
-	right: 73px;
+	right: 72px;
 	top: 29px;
 	background-image: url("../img/sprite-3.png");	
 }
@@ -1445,7 +1448,7 @@ input[type="checkbox"]:checked:disabled + label::after {
 	position: absolute;
 	width: 42px;
 	height: 17px;
-	right: 73px;
+	right: 72px;
 	top: 29px;
 	background-image: url("../img/sprite-3.png");	
 }
@@ -1471,7 +1474,8 @@ input[type="checkbox"]:checked:disabled + label::after {
 
 .central-block-info>a>h2 {		
 	display: block;
-	margin-top: -22px;	
+	margin-top: -23px;
+	letter-spacing: 0.2px;
 	color: #000;
 }
 
@@ -1533,15 +1537,15 @@ input[type="checkbox"]:checked:disabled + label::after {
 }
 
 .rating {
-	height: 30px;
-	width: 112px;
+	height: 27px;
+	width: 111px;
 	float: right;
 	color: #666;
-	background-color: #F2F2F2;
-	text-align: center;
+	background-color: #F2F2F2;	
 	box-sizing: border-box;
-	padding-top: 5px;
+	padding-top: 3px;
+	padding-left: 17px;
 	margin-right: 73px;
-	margin-top: 60px;
+	margin-top: 63px;
 }
 
