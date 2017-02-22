@@ -7,7 +7,7 @@ body {
 	text-transform: uppercase;	
 }
 
-/*Текстовые стили главной седоны*/
+/*Текстовые стили главной седоны*/  /*Форму на главной седоны лучше сделать не могу - розваливаеться в ИЕ*/
 
 .main-menu a {
 	font-family: "PT Sans", "Arial", sans-serif;	 
@@ -269,6 +269,10 @@ input::-ms-clear {
 	margin-right: 240px;
 }
 
+.main-menu li:nth-child(3) {
+	letter-spacing: 0.4px;
+}
+
 .main-menu li:last-child {
 	padding-left: 88px;
 	text-align: left;
@@ -324,7 +328,12 @@ input::-ms-clear {
 }
 
 .five {
-	margin-top: 26px;
+	margin-top: 26px;	
+}
+
+.five,
+.sedona {
+	letter-spacing: 0.1px;
 }
 
 /* Инфо-блок-1 */
@@ -909,7 +918,6 @@ input::-ms-clear {
 	border-color: #5496BD;
 	cursor: pointer;
 }
-
 /* Футер */
 
 .main-footer {
@@ -964,6 +972,7 @@ input::-ms-clear {
 	left: 14px;	
 	background-image: url("../img/sprite-2.png");
 	background-position: 52px -5px;	
+
 }
 
 .social-btn-fb .btn::after {
@@ -1538,13 +1547,13 @@ input[type="checkbox"]:checked:disabled + label::after {
 
 .rating {
 	height: 27px;
-	width: 111px;
+	width: 110px;
 	float: right;
 	color: #666;
 	background-color: #F2F2F2;	
 	box-sizing: border-box;
 	padding-top: 3px;
-	padding-left: 17px;
+	padding-left: 16px;
 	margin-right: 73px;
 	margin-top: 63px;
 }
