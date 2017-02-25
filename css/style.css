@@ -565,7 +565,7 @@ input::-ms-clear {
 	left: 315px;
 	right: 315px;
 	top: 290px;
-	box-shadow: 0 0 10px 3px #A3A3A3;	
+	box-shadow: 0 0 10px 3px #A3A3A3;		
 }
 
 
@@ -918,6 +918,11 @@ input::-ms-clear {
 	border-color: #5496BD;
 	cursor: pointer;
 }
+
+.out {
+	display: none;	
+}
+
 /* Футер */
 
 .main-footer {
