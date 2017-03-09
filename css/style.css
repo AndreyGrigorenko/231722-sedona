@@ -7,7 +7,7 @@ body {
 	text-transform: uppercase;	
 }
 
-/*Текстовые стили главной седоны*/  /*Форму на главной седоны лучше сделать не могу - розваливаеться в ИЕ*/
+/*Текстовые стили главной седоны*/
 
 .main-menu a {
 	font-family: "PT Sans", "Arial", sans-serif;	 
@@ -228,7 +228,8 @@ input::-ms-clear {
 .main-header {
 	background: url("../img/background-photo1.jpg") no-repeat center top;
 	background-color: #D6E7F1;
-	color: #000;	
+	color: #000;
+	background-attachment: fixed;	
 }
 
 .header-top {
@@ -375,7 +376,7 @@ input::-ms-clear {
 .bg-img-1 {
 	height: 256px;
 	width: 800px;
-	float: right;
+	float: right;	
 }
 
 /* Инфо-блок-2 */
