@@ -955,7 +955,8 @@ input::-ms-clear {
 	margin-left: 255px;		 
 }
 
-.btn {
+.social-btn {
+	display: block;
 	width: 46px;
 	height: 48px;
 	background-color: #81B3D2;
@@ -965,11 +966,11 @@ input::-ms-clear {
 	position: relative;
 }
 
-.social-btn-youtube .btn {
+.social-btn-youtube {
 	margin-right: 0;
 }
 
-.social-btn-tw .btn::after {
+.social-btn-tw::after {
 	content: "";
 	width: 17px;
 	height: 15px;
@@ -981,7 +982,7 @@ input::-ms-clear {
 
 }
 
-.social-btn-fb .btn::after {
+.social-btn-fb::after {
 	content: "";
 	width: 10px;
 	height: 19px;
@@ -992,7 +993,7 @@ input::-ms-clear {
 	background-position: 72px -5px;		
 }
 
-.social-btn-youtube .btn::after {
+.social-btn-youtube::after {
 	content: "";
 	width: 20px;
 	height: 16px;
@@ -1003,17 +1004,15 @@ input::-ms-clear {
 	background-position: 25px -5px;		
 }
 
-.btn:hover {
+.social-btn:hover {
 	background-color: #669EC0;			
 }
 
-
-.btn:active {
+.social-btn:active {
 	background-color: #5496BD;	
 }
 
-.btn:active::after {
-	background-color: #5496BD;
+.social-btn:active::after {	
 	opacity: 0.3;
 }
 
